@@ -9,6 +9,7 @@ public class TargetLift : MonoBehaviour
     [Header("Properties")]
     [SerializeField] Transform target;
     [SerializeField] float weight = 75f;
+    [SerializeField] float successLiftingTime = 3f;
 
 
     private void Start()
@@ -20,6 +21,13 @@ public class TargetLift : MonoBehaviour
     {
         return weight;
     }
+
+    public float GetSuccessLiftingTime()
+    {
+        return successLiftingTime;
+    }
+
+
 
 
 

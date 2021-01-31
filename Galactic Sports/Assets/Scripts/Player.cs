@@ -1,6 +1,4 @@
-﻿#define DEBUG
-
-using System;
+﻿using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
@@ -9,56 +7,34 @@ public class Player : MonoBehaviour
 {
 
     // configuration parameters
-    [Header("Circle Properties")]
+    [Header("Player Properties")]
     [SerializeField] Slider playerSlider;
     [SerializeField] float startEnergy = 0.25f;
     [SerializeField] float currentEnergy = 0.5f;
+    [SerializeField] float liftStopTime = 3f;
     [SerializeField] GameObject deathVFX;
 
-    [Header("Energy Decay")]
-    [SerializeField] float decaySpeed = 0.1f;
-    [SerializeField] float decayAcceleration = 0.1f;
-
-    [Header("Charge Parameters")]
-    [SerializeField] float chargeRate = 1f;
-    [SerializeField] float releaseRate = 0.1f; 
+    [Header("Lift Parameters")]
+    [SerializeField] float chargeRate = 0.5f;
     [SerializeField] float storedPulse = 0f;
     [SerializeField] float maxCharge = 100f;
+    [SerializeField] float pressTime = 0f;
+    [SerializeField] float weightClass = 0f;
+    [SerializeField] float weightLiftingTime = 0f;
     [SerializeField] Slider chargeLevelDisplay;
     
     [Header("Debug Parameters")]
     [SerializeField] float energyInput;
     [SerializeField] float lastEnergyInput;
-    [SerializeField] float inputVelocity = 0f;
-    [SerializeField] float minVelocityAchieved = 0f;
-    [SerializeField] float maxVelocityAchieved = 0f;
     [SerializeField] float maxEnergyAchieved = 0f;
-    [SerializeField] float lockEnergy = 0.25f;
-    [SerializeField] float flickSpeedThreshold = -0.5f;
     [SerializeField] float lastPlayerEnergy = 0f;
     [SerializeField] float EnergyGrowthRate = 0f;
+    [SerializeField] float maxStoredAchieved = 0f;
     [SerializeField] bool playerTriggered = false;
 
     // cached references
     private GameManager gameManager;
     Animator myAnimator;
-
-    InitialParams initialParams = new InitialParams();
-
-    class InitialParams
-    {
-        public float m_decaySpeed, m_decayAcceleration, m_chargeRate, m_lockRadius;
-
-        public InitialParams() { }
-
-        public InitialParams(float decayS, float decayA, float chgR, float lockRad)
-        {
-            this.m_decaySpeed = decayS;
-            this.m_decayAcceleration = decayA;
-            this.m_chargeRate = chgR;
-            this.m_lockRadius = lockRad;
-        }
-    }
 
     private void Awake()
     {
@@ -69,40 +45,31 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-        lockEnergy = startEnergy;
         playerSlider.value = currentEnergy;
-
-        initialParams.m_decaySpeed = decaySpeed;
-        initialParams.m_decayAcceleration = decayAcceleration;
-        initialParams.m_chargeRate = chargeRate;
-        initialParams.m_lockRadius = lockEnergy;
 
         chargeLevelDisplay.maxValue = maxCharge;
         chargeLevelDisplay.value = 0f;
+
+        weightClass = gameManager.GetTargetLift().GetWeight();
+        weightLiftingTime = gameManager.GetTargetLift().GetSuccessLiftingTime();
 
     }
 
     private void Update()
     {
 
-        //currentEnergy -= CalculateEnergyDecay();
         energyInput = Mathf.Abs(Input.GetAxisRaw("Rotate"));
-
-        inputVelocity = (energyInput - lastEnergyInput);
-        minVelocityAchieved = Mathf.Min(minVelocityAchieved, inputVelocity);
-        maxVelocityAchieved = Mathf.Max(maxVelocityAchieved, inputVelocity);
-        lastEnergyInput = energyInput;
 
         EnergyGrowthRate = (currentEnergy - lastPlayerEnergy);
         lastPlayerEnergy = currentEnergy;
 
         maxEnergyAchieved = Mathf.Max(currentEnergy, maxEnergyAchieved);
 
-        if (energyInput > 0f )//&& !playerTriggered)
+        if (energyInput >= Mathf.Epsilon && !playerTriggered)
         {
             ChargePulse(energyInput);
         }
-        else if (energyInput == 0f && !StoredPulseIsEmpty())
+        else if (energyInput <= Mathf.Epsilon && !StoredPulseIsEmpty())
         {
             myAnimator.SetTrigger("liftTrigger");
             StartCoroutine(ReleaseStoredEnergy());
@@ -116,59 +83,38 @@ public class Player : MonoBehaviour
 
         }
 
-        HandleEnergyLock();
-        currentEnergy = Mathf.Max(currentEnergy, lockEnergy);
-
-
-        if (Input.GetButton("Jump"))
-        {
-            ResetParameters(initialParams);
-        }
-
         playerSlider.value = currentEnergy;      
-    }
-
-    private void HandleEnergyLock()
-    {
-        bool IsEnergyIncreasing = EnergyGrowthRate > 0f;
-
-        if (playerTriggered && !IsEnergyIncreasing)
-        {
-
-            //lockEnergy = maxEnergyAchieved * 0.9f;
-            lockEnergy = 0f;
-        }
-    }
-  
-    private float CalculateEnergyDecay()
-    {
-        return (decaySpeed + 0.5f * decayAcceleration * Time.deltaTime) * Time.deltaTime;
     }
 
     private void ChargePulse(float amount)
     {
-        storedPulse += chargeRate * amount;
-        storedPulse = Mathf.Clamp(storedPulse, 0f, maxCharge);
+        maxStoredAchieved = Mathf.Max(maxStoredAchieved, storedPulse);
+        storedPulse = chargeRate * amount;
         chargeLevelDisplay.value = storedPulse;
     }
         
     // declared this a coroutine so that it runs not at every frame, but suspends until completed.
     IEnumerator ReleaseStoredEnergy()
     {
-        
-        //playerTriggered = true;
-        currentEnergy += (releaseRate * storedPulse) * Time.deltaTime;
-        storedPulse -= (releaseRate * storedPulse) * Time.deltaTime;
-        storedPulse = Mathf.Floor(Mathf.Max(0f, storedPulse));        
-        chargeLevelDisplay.value = storedPulse;
-        yield return new WaitForSeconds(0.5f);
+        pressTime += Time.deltaTime;
+        if (pressTime >= weightLiftingTime)
+        {
+            storedPulse = 0f;
+            yield break;
+        }
 
-        
+        playerTriggered = true;
+        currentEnergy += storedPulse/2f * Time.deltaTime;
+        storedPulse = Mathf.Lerp(maxStoredAchieved, 0f, 0.5f*Mathf.Log(1 + pressTime / weightLiftingTime));
+        chargeLevelDisplay.value = storedPulse;
+        yield return new WaitForSeconds(1f);
+
+
     }
 
     bool StoredPulseIsEmpty()
     {
-        if (storedPulse > 0)
+        if (storedPulse >= Mathf.Epsilon)
         {
             return false;
         } else
@@ -199,18 +145,6 @@ public class Player : MonoBehaviour
     }
 
 
-#if DEBUG
-    private void ResetParameters(InitialParams param)
-    {
-        decaySpeed = param.m_decaySpeed;
-        decayAcceleration = param.m_decayAcceleration;
-        chargeRate = param.m_chargeRate;
-        lockEnergy = param.m_lockRadius;
-        playerTriggered = false;
-        maxEnergyAchieved = 0f;
-        maxVelocityAchieved = 0f;
-    }
-#endif
 //    // deprecated
 //    private void DrawCircle(float inputRadius)
 //    {
