@@ -8,14 +8,13 @@ public class Player : MonoBehaviour
 
     // configuration parameters
     [Header("Player Properties")]
-    [SerializeField] Slider playerSlider;
     [SerializeField] float startEnergy = 0.25f;
     [SerializeField] float currentEnergy = 0.5f;
-    [SerializeField] float liftStopTime = 3f;
+    [SerializeField] float liftStopTime = 5f;
     [SerializeField] GameObject deathVFX;
 
     [Header("Lift Parameters")]
-    [SerializeField] float chargeRate = 0.5f;
+    [SerializeField] float playerLiftPower = 500f;
     [SerializeField] float storedPulse = 0f;
     [SerializeField] float maxCharge = 100f;
     [SerializeField] float pressTime = 0f;
@@ -24,9 +23,10 @@ public class Player : MonoBehaviour
     [SerializeField] Slider chargeLevelDisplay;
     
     [Header("Debug Parameters")]
-    [SerializeField] float energyInput;
+    [SerializeField] float energyRawInputThrow;
+    [SerializeField] float energyCycledThrow;
     [SerializeField] float lastEnergyInput;
-    [SerializeField] float maxEnergyAchieved = 0f;
+    [SerializeField] float maxEnergyRawInputAchieved = 0f;
     [SerializeField] float lastPlayerEnergy = 0f;
     [SerializeField] float EnergyGrowthRate = 0f;
     [SerializeField] float maxStoredAchieved = 0f;
@@ -45,7 +45,6 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-        playerSlider.value = currentEnergy;
 
         chargeLevelDisplay.maxValue = maxCharge;
         chargeLevelDisplay.value = 0f;
@@ -57,19 +56,52 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
+        // ProcessPlayerInputThrow();
 
-        energyInput = Mathf.Abs(Input.GetAxisRaw("Rotate"));
+        if (playerTriggered)
+        {
+            liftStopTime -= Time.deltaTime;
+        }
+
+        if (liftStopTime <= Mathf.Epsilon)
+        {
+            return;
+        } 
+        
+        energyRawInputThrow = Mathf.Abs(Input.GetAxis("Rotate"));
+        maxEnergyRawInputAchieved = Mathf.Max(maxEnergyRawInputAchieved, energyRawInputThrow);
+
+        if (energyRawInputThrow > Mathf.Epsilon)
+        {
+            playerTriggered = true;
+            energyCycledThrow = ProcessRawIntoCycledEnergy(maxEnergyRawInputAchieved, chargeLevelDisplay.maxValue);
+        }
+
+        chargeLevelDisplay.transform.GetChild(0).GetComponent<Text>().text = liftStopTime.ToString("0.000");
+        chargeLevelDisplay.value = energyCycledThrow;
+
+    }
+
+    private float ProcessRawIntoCycledEnergy(float rawInput, float amplitude)
+    {
+        return Mathf.PingPong(playerLiftPower *  energyRawInputThrow * Time.time, amplitude);
+        //return (amplitude/1.5f) * (Mathf.Sin(10f * energyRawInputThrow * Time.time - Mathf.PI / 2) + 0.5f);
+    }
+
+    private void ProcessPlayerInputThrow()
+    {
+        energyRawInputThrow = Mathf.Abs(Input.GetAxisRaw("Rotate"));
 
         EnergyGrowthRate = (currentEnergy - lastPlayerEnergy);
         lastPlayerEnergy = currentEnergy;
 
-        maxEnergyAchieved = Mathf.Max(currentEnergy, maxEnergyAchieved);
+        maxEnergyRawInputAchieved = Mathf.Max(currentEnergy, maxEnergyRawInputAchieved);
 
-        if (energyInput >= Mathf.Epsilon && !playerTriggered)
+        if (energyRawInputThrow >= Mathf.Epsilon && !playerTriggered)
         {
-            ChargePulse(energyInput);
+            ChargePulse(energyRawInputThrow);
         }
-        else if (energyInput <= Mathf.Epsilon && !StoredPulseIsEmpty())
+        else if (energyRawInputThrow <= Mathf.Epsilon && !StoredPulseIsEmpty())
         {
             myAnimator.SetTrigger("liftTrigger");
             StartCoroutine(ReleaseStoredEnergy());
@@ -82,14 +114,12 @@ public class Player : MonoBehaviour
             Debug.Log("Coroutine stopped.");
 
         }
-
-        playerSlider.value = currentEnergy;      
     }
 
     private void ChargePulse(float amount)
     {
         maxStoredAchieved = Mathf.Max(maxStoredAchieved, storedPulse);
-        storedPulse = chargeRate * amount;
+        storedPulse = playerLiftPower * amount;
         chargeLevelDisplay.value = storedPulse;
     }
         

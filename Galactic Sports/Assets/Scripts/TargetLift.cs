@@ -14,7 +14,7 @@ public class TargetLift : MonoBehaviour
 
     private void Start()
     {
-        target.transform.position = new Vector2(0f, weight);
+        target.transform.localPosition = new Vector2(0f, weight) * target.GetComponentInParent<RectTransform>().rect.height / target.GetComponentInParent<Slider>().maxValue;
     }
 
     public float GetWeight()
