@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/The Clean.unity
+    guid: 06f06b31c43f6fc41ba29475b207ea2d
   m_configObjects: {}
