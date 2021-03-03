@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ScoreDisplay : MonoBehaviour
 {
     Player player;
-    TargetLift target;
+    Weight target;
     Text scoreText;
 
     // Start is called before the first frame update
@@ -14,7 +14,7 @@ public class ScoreDisplay : MonoBehaviour
     {
         scoreText = GetComponent<Text>();
         player = FindObjectOfType<Player>();
-        target = FindObjectOfType<TargetLift>();
+        target = FindObjectOfType<Weight>();
     }
 
     // Update is called once per frame
@@ -23,7 +23,7 @@ public class ScoreDisplay : MonoBehaviour
         scoreText.text = CalculateScore(player, target).ToString();
     }
 
-    private float CalculateScore(Player player, TargetLift target)
+    private float CalculateScore(Player player, Weight target)
     {
         float score, playerEnergy, targetEnergy, energyPctDiff;
         playerEnergy = player.GetCurrentEnergy();

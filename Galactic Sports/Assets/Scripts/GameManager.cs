@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] TargetLift targetLift;
+    [SerializeField] Weight currentLevelWeight;
 
-    public TargetLift GetTargetLift()
+    public Weight GetLevelWeight()
     {
-        return targetLift;
+        return currentLevelWeight;
     }
 
     

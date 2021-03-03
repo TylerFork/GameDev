@@ -64,8 +64,7 @@
     <Compile Include="Assets\Scripts\LevelLoader.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\ScoreDisplay.cs" />
-    <Compile Include="Assets\Scripts\StoredPowerDisplay.cs" />
-    <Compile Include="Assets\Scripts\TargetLift.cs" />
+    <Compile Include="Assets\Scripts\Weight.cs" />
     <None Include="Assets\Fonts\Dogica\dogica_pixel_license.txt" />
     <None Include="Assets\Fonts\Dogica\dogica_license.txt" />
     <None Include="Assets\Fonts\Dogica\info.txt" />
