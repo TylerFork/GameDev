@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\ScoreDisplay.cs" />
     <Compile Include="Assets\Scripts\Weight.cs" />
+    <Compile Include="Assets\Scripts\WeightCollection.cs" />
     <None Include="Assets\Fonts\Dogica\dogica_pixel_license.txt" />
     <None Include="Assets\Fonts\Dogica\dogica_license.txt" />
     <None Include="Assets\Fonts\Dogica\info.txt" />
