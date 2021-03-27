@@ -39,13 +39,13 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-        weightLiftCurve = gameManager.GetLevelWeight().GetLiftCurve();
+        weightLiftCurve = gameManager.GetLevelWeightCollection().GetLiftCurve();
 
         chargeLevelDisplay.maxValue = maxCharge;
         chargeLevelDisplay.value = 0f;
 
-        weightClass = gameManager.GetLevelWeight().GetWeight();
-        weightLiftingTime = gameManager.GetLevelWeight().GetSuccessLiftingTime();
+        weightClass = gameManager.GetLevelWeightCollection().GetTotalWeight();
+        weightLiftingTime = gameManager.GetLevelWeightCollection().GetSuccessLiftingTime();
 
     }
 
