@@ -51,6 +51,7 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
+
         // ProcessPlayerInputThrow();
         if ((playerStarted && Input.GetButtonDown("Jump")) | (weightLiftingTime <= Mathf.Epsilon))
         {
