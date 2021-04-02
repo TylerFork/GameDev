@@ -1,97 +1,114 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System;
+using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class WeightCollection : MonoBehaviour
 {
-    [SerializeField] Weight[] weights;
-    [SerializeField] AnimationCurve collectionLiftCurve;
+    // configuration parameters
+    [Header("Properties")]
+    [Tooltip("Enter the Rect Transform of the target power in Slider")] [SerializeField] RectTransform target;
+    [SerializeField] AnimationCurve liftCurve = AnimationCurve.EaseInOut(0,0,1,1);
+    [Range(15f, 85f)] [SerializeField] float weight;
+    [Range(5f, 40f)] [SerializeField] float weightDifficulty = 5f;
+    [SerializeField] float successLiftingTime = 3f;
 
-    List<float> keyFrameTimes;
-    List<float> keyFrameValues;
+    Tuple<float, float> ScoreRange;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
-        SetCurveFromChildWeights();
-    }
-
-    /// <summary>
-    /// Return the product of all weight AnimationCurves evaluated at the time <paramref name="input"/>
-    /// </summary>
-    /// <param name="input"></param>
-    /// <returns></returns>
-    public float EvaluateAllCurves(float input) 
-    {
-        float value = 1f;
-
-        foreach (Weight weight in weights)
-        {
-            value = Mathf.Clamp01(value * weight.GetLiftCurve().Evaluate(input));
-        }
-
-        return value;
-    }
-
-    /// <summary>
-    /// Attempts to detect all keyframes in child weights and only considers the largest values.
-    /// </summary>
-    void SetCurveFromChildWeights()
-    {
-        foreach (Weight weight in weights)
-        {
-            
-            foreach (Keyframe key in weight.GetLiftCurve().keys)
-            {
-                if (CheckIfKeyTimeExists(collectionLiftCurve, key))
-                {
-                    for (int i = 0; i < collectionLiftCurve.keys.Length; i++)
-                    {
-                        if (collectionLiftCurve.keys[i].time == key.time)
-                        {
-                            if (collectionLiftCurve.keys[i].value > key.value)
-                            {
-                                continue;  
-                            } else
-                            {
-                                collectionLiftCurve.RemoveKey(i);
-                                collectionLiftCurve.AddKey(key);
-                            }
-                        }
-                    }
-
-                } else
-                {
-                    collectionLiftCurve.AddKey(key);
-                }
-            }
-        }
-    }
-
-    bool CheckIfKeyTimeExists(AnimationCurve curve, Keyframe key)
-    {
-        for (int i = 0; i < curve.keys.Length; i++)
-        {
-            if (curve.keys[i].time == key.time)
-            {
-                return true;
-            }
-        }
-
-        return false;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
+        SetTotalWeight();
         
     }
 
-    //private void OnDrawGizmos()
+    private void Start()
+    {
+        ScoreRange = SetWeightTargetAndDifficulty();
+        print(ScoreRange.Item1.ToString() + " <--> " + ScoreRange.Item2.ToString());
+    }
+
+    private Tuple<float, float> SetWeightTargetAndDifficulty()
+    {
+        float maximumSliderValue = target.GetComponentInParent<Slider>().maxValue;
+        float sliderHeight = target.GetComponentInParent<Slider>().GetComponent<RectTransform>().rect.height;
+        float sliderRectHeightToMaxValueRatio = sliderHeight / maximumSliderValue;
+        float weightUpperBound = (weight) * sliderRectHeightToMaxValueRatio + weightDifficulty;
+        float weightLowerBound = (weight) * sliderRectHeightToMaxValueRatio - weightDifficulty;
+
+        if (weightUpperBound > maximumSliderValue * 2)
+        {
+            float fixedScale = 0.5f*(maximumSliderValue*sliderRectHeightToMaxValueRatio - weightLowerBound);
+            float fixedPos = 0.5f*(maximumSliderValue * sliderRectHeightToMaxValueRatio + weightLowerBound);
+            target.localPosition = new Vector2(0f, fixedPos);
+            target.localScale = new Vector2(10f, fixedScale * 2f);
+            //print("weightUpperBound: " + (fixedPos + fixedScale*0.5f).ToString() + ", weightLowerBound: " + (fixedPos - fixedScale * 0.5f).ToString());
+            return new Tuple<float, float>(fixedPos + fixedScale * 0.5f, fixedPos - fixedScale * 0.5f);
+
+        } else if (weightLowerBound < 0f * 2)
+        {
+            float fixedScale = 0.5f * (weightUpperBound - 0f * sliderRectHeightToMaxValueRatio);
+            float fixedPos = 0.5f * (weightUpperBound + 0f * sliderRectHeightToMaxValueRatio);
+            target.localPosition = new Vector2(0f, fixedPos);
+            target.localScale = new Vector2(10f, fixedScale * 2f);
+            //print("weightUpperBound: " + (fixedPos + fixedScale * 0.5f).ToString() + ", weightLowerBound: " + (fixedPos - fixedScale * 0.5f).ToString());
+            return new Tuple<float, float>(fixedPos + fixedScale * 0.5f, fixedPos - fixedScale * 0.5f);
+
+
+        } else
+        {
+            target.localPosition = new Vector2(0f, weight) * sliderHeight / maximumSliderValue;
+            target.localScale = new Vector2(10f, weightDifficulty * 2f);
+            //print("weightUpperBound: " + weightUpperBound.ToString() + ", weightLowerBound: " + weightLowerBound.ToString());
+            return new Tuple<float, float>(weightUpperBound, weightLowerBound);
+
+        }
+
+    }
+
+    //Tuple<float, float> CalculateUpperAndLowerBounds(float bar, float buffer)
     //{
-    //    SetCurveFromChildWeights();
-        
+    //    return new Tuple<float, float>(bar + buffer, bar - buffer);
     //}
 
+    void SetTotalWeight()
+    {
+        float totalWeight = 0f;
+        foreach (Transform weight in transform)
+        {
+            totalWeight += weight.gameObject.GetComponent<SingleWeight>().GetWeight();
+        }
+
+        if (totalWeight > 100f)
+        {
+            weight = 100f;
+        } else
+        {
+            weight = totalWeight;
+        }
+    }
+
+    public float GetTotalWeight()
+    {
+        return weight;
+    }
+
+    public float GetSuccessLiftingTime()
+    {
+        return successLiftingTime;
+    }
+
+    public AnimationCurve GetLiftCurve()
+    {
+        return liftCurve;
+    }
+    
+    public Tuple<float, float> GetScoreRange()
+    {
+        return ScoreRange;
+    }
+
+
+
+
 }
+
