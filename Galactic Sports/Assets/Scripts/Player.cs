@@ -14,20 +14,19 @@ public class Player : MonoBehaviour
     [SerializeField] float maxCharge = 100f;
     [SerializeField] float weightClass = 0f;
     [SerializeField] float frequencyStrength = 500f;
-    [SerializeField] float weightLiftingTime = 0f;
-    [SerializeField] AnimationCurve weightLiftCurve;
     [SerializeField] Slider chargeLevelDisplay;
     
-    [Header("Debug Parameters")]
-    [SerializeField] float energyRawInputThrow;
-    [SerializeField] float energyCycledThrow;
-    [SerializeField] bool playerStarted = false;
-    [SerializeField] bool playerPressedConfirmButton = false;
-
+    //[Header("Debug Parameters")]
+    float energyRawInputThrow;
+    float energyCycledThrow;
+    bool playerStarted = false;
+    bool playerPressedConfirmButton = false;
+    float weightLiftingTime = 0f;
     float processedFrequency;
 
     // cached references
     private GameManager gameManager;
+    AnimationCurve weightLiftCurve;
     Animator myAnimator;
 
     private void Awake()
@@ -56,6 +55,7 @@ public class Player : MonoBehaviour
         if ((playerStarted && Input.GetButtonDown("Jump")) | (weightLiftingTime <= Mathf.Epsilon))
         {
             playerPressedConfirmButton = true;
+            myAnimator.SetTrigger("liftTrigger");
         }
 
         if (energyRawInputThrow > Mathf.Epsilon)
@@ -86,7 +86,7 @@ public class Player : MonoBehaviour
     {
         float processedFrequency = frequencyStrength * weightLiftCurve.Evaluate(rawInput);
         //float processedInput = Mathf.Floor(rawInput*cycleFrequency);
-        return (amplitude / 1.5f) * (Mathf.Sin(processedFrequency*Time.time - Mathf.PI / 2) + 0.5f);
+        return (amplitude / 1.5f) * (Mathf.Cos(processedFrequency*Time.time - Mathf.PI / 2) + 0.5f);
     }
 
     IEnumerator CyclicEnergyBar()
@@ -104,6 +104,11 @@ public class Player : MonoBehaviour
     public float GetCurrentEnergy()
     {
         return energyCycledThrow;
+    }
+
+    public bool GetPlayerPressedConfirmButton()
+    {
+        return playerPressedConfirmButton;
     }
 
 

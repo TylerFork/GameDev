@@ -10,7 +10,7 @@ public class WeightCollection : MonoBehaviour
     [Tooltip("Enter the Rect Transform of the target power in Slider")] [SerializeField] RectTransform target;
     [SerializeField] AnimationCurve liftCurve = AnimationCurve.EaseInOut(0,0,1,1);
     [Range(15f, 85f)] [SerializeField] float weight;
-    [Range(5f, 40f)] [SerializeField] float weightDifficulty = 5f;
+    [Tooltip("Higher numbers correspond to lower difficulty")] [Range(5f, 40f)] [SerializeField] float weightDifficulty = 5f;
     [SerializeField] float successLiftingTime = 3f;
 
     Tuple<float, float> ScoreRange;
@@ -24,7 +24,7 @@ public class WeightCollection : MonoBehaviour
     private void Start()
     {
         ScoreRange = SetWeightTargetAndDifficulty();
-        print(ScoreRange.Item1.ToString() + " <--> " + ScoreRange.Item2.ToString());
+        print(ScoreRange.Item1.ToString() + " <-" + GetTotalWeight().ToString() + "-> " + ScoreRange.Item2.ToString());
     }
 
     private Tuple<float, float> SetWeightTargetAndDifficulty()
@@ -59,7 +59,7 @@ public class WeightCollection : MonoBehaviour
             target.localPosition = new Vector2(0f, weight) * sliderHeight / maximumSliderValue;
             target.localScale = new Vector2(10f, weightDifficulty * 2f);
             //print("weightUpperBound: " + weightUpperBound.ToString() + ", weightLowerBound: " + weightLowerBound.ToString());
-            return new Tuple<float, float>(weightUpperBound, weightLowerBound);
+            return new Tuple<float, float>(weightLowerBound, weightUpperBound);
 
         }
 
