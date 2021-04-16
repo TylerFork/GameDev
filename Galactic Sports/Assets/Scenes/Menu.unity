@@ -157,7 +157,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1287,7 +1287,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1478957754}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: SettingsMenu, Assembly-CSharp
         m_MethodName: SetVolume
         m_Mode: 0
         m_Arguments:
@@ -1325,7 +1325,7 @@ AudioSource:
   m_GameObject: {fileID: 1025709441}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: fce264a68f7c72344bbf71aaa0fb5d3d,
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 8effd949725e189478f13e3a1e548c1b,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 36fbbf85fbb04fb429c78765e971ddd4, type: 3}
   m_PlayOnAwake: 1
@@ -1590,8 +1590,8 @@ RectTransform:
   m_Father: {fileID: 1054508405}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2299,7 +2299,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 12caa70037625bb4ba6e56a426cc83b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c1cc5b065febfcf49bb270dfd642a48d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
