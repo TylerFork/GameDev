@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -8,7 +9,28 @@ public class GameManager : MonoBehaviour
     [SerializeField] WeightCollection currentLevelWeights;
     [SerializeField] Text scoreText;
 
+    float runningScore = 0f;
+
     Player player;
+
+    /// setup singleton pattern for this object
+    private void Awake()
+    {
+        SetupSingleton();
+    }
+
+    private void SetupSingleton()
+    {
+        if (FindObjectsOfType<GameManager>().Length > 1)
+        {
+            Destroy(gameObject);
+        } else
+        {
+            DontDestroyOnLoad(gameObject);
+        }
+    }
+
+
 
     void Start()
     {
@@ -19,17 +41,13 @@ public class GameManager : MonoBehaviour
     {
         if (player.GetPlayerPressedConfirmButton())
         {
-            scoreText.text = CalculateScore(player, currentLevelWeights).ToString();
+            runningScore = CalculateScore(player, currentLevelWeights);
+            scoreText.text = runningScore.ToString();
 
         }
 
     }
-
-    public WeightCollection GetLevelWeightCollection()
-    {
-        return currentLevelWeights;
-    }
-
+ 
     private float CalculateScore(Player player, WeightCollection target)
     {
         float minScoringRange, maxScoringRange, playerEnergy, targetEnergy, playerEnergyRatioAwayFromTarget;
@@ -56,7 +74,13 @@ public class GameManager : MonoBehaviour
 
         }
 
+        // todo: fix scoring since it's broken
         return Mathf.Lerp(100f, 0f, playerEnergyRatioAwayFromTarget);
+    }
+
+    public WeightCollection GetLevelWeightCollection()
+    {
+        return currentLevelWeights;
     }
 
 }
