@@ -54,6 +54,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\SettingsMenu.cs" />
+    <Compile Include="Assets\Scripts\ProgressBar.cs" />
     <Compile Include="Assets\Scripts\VerticalMovment.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\SingleWeight.cs" />
@@ -64,7 +65,6 @@
     <Compile Include="Assets\Scripts\LevelLoader.cs" />
     <Compile Include="Assets\Scripts\WeightCollection.cs" />
     <Compile Include="Assets\Scripts\MovingPlatform.cs" />
-    <Compile Include="Assets\ProgressBar.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Fonts\Dogica\info.txt" />

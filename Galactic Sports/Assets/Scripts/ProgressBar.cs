@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -23,8 +24,8 @@ public class ProgressBar : MonoBehaviour
     // any current fill from the player higher/lower than these upper/lower slider fillAmounts would count as 0 score.
 
     [Header("Slider")]
-    [SerializeField] int minimum;
-    [SerializeField] int maximum;
+    [SerializeField] int minimum = 0;
+    [SerializeField] int maximum = 100;
     [SerializeField] int current;
     [SerializeField] Image mask;
     [SerializeField] Image fill;
@@ -108,4 +109,27 @@ public class ProgressBar : MonoBehaviour
 
     }
 
+    public void SetCurrentFillAmount(float input)
+    {
+        current = (int)input;
+    }
+
+    public void SetSliderTargetWeight(float input)
+    {
+        targetPos = input;
+    }
+
+    public void SetSliderUpperAndLowerMaskFill(float iDifficulty)
+    {
+        float fill = 10f * iDifficulty;
+        lowerTargetCurrent = fill;
+        upperTargetCurrent = fill;
+    }
+
+    public Tuple<float, float > GetScoreRange()
+    {
+        
+
+        return new Tuple<float, float>(lowerTargetMask.fillAmount, upperTargetMask.fillAmount);
+    }
 }

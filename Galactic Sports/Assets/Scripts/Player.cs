@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
+[ExecuteInEditMode()]
 public class Player : MonoBehaviour
 {
 
@@ -11,10 +12,9 @@ public class Player : MonoBehaviour
     [SerializeField] GameObject deathVFX;
 
     [Header("Lift Parameters")]
-    [SerializeField] float maxCharge = 100f;
-    [SerializeField] float weightClass = 0f;
     [SerializeField] float frequencyStrength = 500f;
     [SerializeField] Slider chargeLevelDisplay;
+    [SerializeField] ProgressBar progressBar;
     
     //[Header("Debug Parameters")]
     float energyRawInputThrow;
@@ -31,6 +31,7 @@ public class Player : MonoBehaviour
 
     private void Awake()
     {
+        progressBar = FindObjectOfType<ProgressBar>();
         gameManager = FindObjectOfType<GameManager>();
         myAnimator = GetComponent<Animator>();
 
@@ -40,10 +41,9 @@ public class Player : MonoBehaviour
     {
         weightLiftCurve = gameManager.GetLevelWeightCollection().GetLiftCurve();
 
-        chargeLevelDisplay.maxValue = maxCharge;
         chargeLevelDisplay.value = 0f;
+        progressBar.SetCurrentFillAmount(0f);
 
-        weightClass = gameManager.GetLevelWeightCollection().GetTotalWeight();
         weightLiftingTime = gameManager.GetLevelWeightCollection().GetSuccessLiftingTime();
 
     }
@@ -70,11 +70,11 @@ public class Player : MonoBehaviour
             weightLiftingTime -= Time.deltaTime;
             //processedFrequency = frequencyStrength * weightLiftCurve.Evaluate(energyRawInputThrow);
             //StartCoroutine(CyclicEnergyBar());
-            energyCycledThrow = ProcessRawIntoCycledEnergy(energyRawInputThrow, chargeLevelDisplay.maxValue);
+            energyCycledThrow = ProcessRawIntoCycledEnergy(energyRawInputThrow, 100f);
         }
 
         chargeLevelDisplay.transform.GetChild(0).GetComponent<Text>().text = weightLiftingTime.ToString("0.000");
-        chargeLevelDisplay.value = energyCycledThrow;
+        progressBar.SetCurrentFillAmount(energyCycledThrow);
 
     }
 
@@ -86,12 +86,12 @@ public class Player : MonoBehaviour
     {
         float processedFrequency = frequencyStrength * weightLiftCurve.Evaluate(rawInput);
         //float processedInput = Mathf.Floor(rawInput*cycleFrequency);
-        return (amplitude / 1.5f) * (Mathf.Cos(processedFrequency*Time.time - Mathf.PI / 2) + 0.5f);
+        return (amplitude) * (Mathf.Cos(processedFrequency*Time.time - Mathf.PI / 2));
     }
 
     IEnumerator CyclicEnergyBar()
     {
-        energyCycledThrow = (chargeLevelDisplay.maxValue / 1.5f) * (Mathf.Sin(processedFrequency * Time.time - Mathf.PI / 2) + 0.5f);
+        energyCycledThrow = (100f) * (Mathf.Sin(processedFrequency * Time.time - Mathf.PI / 2));
         yield return null;
     }
      
