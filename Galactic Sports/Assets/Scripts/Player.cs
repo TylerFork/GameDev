@@ -13,16 +13,13 @@ public class Player : MonoBehaviour
 
     [Header("Lift Parameters")]
     [SerializeField] float frequencyStrength = 500f;
-    [SerializeField] Slider chargeLevelDisplay;
     [SerializeField] ProgressBar progressBar;
     
-    //[Header("Debug Parameters")]
     float energyRawInputThrow;
     float energyCycledThrow;
     bool playerStarted = false;
     bool playerPressedConfirmButton = false;
-    float weightLiftingTime = 0f;
-    float processedFrequency;
+    bool isLevelTimerOver = false;
 
     // cached references
     private GameManager gameManager;
@@ -41,10 +38,7 @@ public class Player : MonoBehaviour
     {
         weightLiftCurve = gameManager.GetLevelWeightCollection().GetLiftCurve();
 
-        chargeLevelDisplay.value = 0f;
         progressBar.SetCurrentFillAmount(0f);
-
-        weightLiftingTime = gameManager.GetLevelWeightCollection().GetSuccessLiftingTime();
 
     }
 
@@ -52,9 +46,10 @@ public class Player : MonoBehaviour
     {
 
         // ProcessPlayerInputThrow();
-        if ((playerStarted && Input.GetButtonDown("Jump")) | (weightLiftingTime <= Mathf.Epsilon))
+        if ((playerStarted && Input.GetButtonDown("Jump")) | isLevelTimerOver)
         {
             playerPressedConfirmButton = true;
+            gameManager.CalculateAndAddToRunningScore();
             myAnimator.SetTrigger("liftTrigger");
         }
 
@@ -67,13 +62,11 @@ public class Player : MonoBehaviour
 
         if (playerStarted && !playerPressedConfirmButton)
         {
-            weightLiftingTime -= Time.deltaTime;
             //processedFrequency = frequencyStrength * weightLiftCurve.Evaluate(energyRawInputThrow);
             //StartCoroutine(CyclicEnergyBar());
             energyCycledThrow = ProcessRawIntoCycledEnergy(energyRawInputThrow, 100f);
         }
 
-        chargeLevelDisplay.transform.GetChild(0).GetComponent<Text>().text = weightLiftingTime.ToString("0.000");
         progressBar.SetCurrentFillAmount(energyCycledThrow);
 
     }
@@ -89,16 +82,15 @@ public class Player : MonoBehaviour
         return (amplitude) * (Mathf.Cos(processedFrequency*Time.time - Mathf.PI / 2));
     }
 
-    IEnumerator CyclicEnergyBar()
-    {
-        energyCycledThrow = (100f) * (Mathf.Sin(processedFrequency * Time.time - Mathf.PI / 2));
-        yield return null;
-    }
-     
     public void DeathVFX()
     {
         GameObject explosion = Instantiate(deathVFX, transform.position, transform.rotation);
         Destroy(explosion, 1f);
+    }
+
+    public void SetIsLevelTimerOverFlag()
+    {
+        isLevelTimerOver = true;
     }
 
     public float GetCurrentEnergy()
@@ -109,6 +101,14 @@ public class Player : MonoBehaviour
     public bool GetPlayerPressedConfirmButton()
     {
         return playerPressedConfirmButton;
+    }
+
+    //unused
+    IEnumerator CyclicEnergyBar()
+    {
+        float processedFrequency = 0;
+        energyCycledThrow = (100f) * (Mathf.Sin(processedFrequency * Time.time - Mathf.PI / 2));
+        yield return null;
     }
 
 

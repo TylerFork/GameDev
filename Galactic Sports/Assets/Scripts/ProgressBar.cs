@@ -52,17 +52,16 @@ public class ProgressBar : MonoBehaviour
         mask.rectTransform.pivot = new Vector2(0f, mask.rectTransform.pivot.y);
         upperTargetMask.rectTransform.pivot = new Vector2(0f, upperTargetMask.rectTransform.pivot.y);
         lowerTargetMask.rectTransform.pivot = new Vector2(0f, lowerTargetMask.rectTransform.pivot.y);
+        SetTargetPosition();
+        GetTargetFill();
     }
 
     // Update is called once per frame
     void Update()
     {
         GetCurrentFill();
-        GetTargetFill();
-        SetTargetPosition();
-
         rectangle = gameObject.GetComponent<RectTransform>().rect;
-        DisplayRectBounds(new Rect[] { rectangle }, new string[] { "slider"});
+        //DisplayRectBounds(new Rect[] { rectangle }, new string[] { "slider"});
     }
 
 
@@ -126,10 +125,11 @@ public class ProgressBar : MonoBehaviour
         upperTargetCurrent = fill;
     }
 
-    public Tuple<float, float > GetScoreRange()
+    public Tuple<float, float> GetScoreRange()
     {
-        
-
-        return new Tuple<float, float>(lowerTargetMask.fillAmount, upperTargetMask.fillAmount);
+        float lowerAmount = Mathf.Clamp(targetPos - lowerTargetMask.fillAmount*100f, (float)minimum, (float)maximum);
+        float upperAmount = Mathf.Clamp(targetPos + upperTargetMask.fillAmount*100f, (float)minimum, (float)maximum);
+        var scoreRange = new Tuple<float, float>(lowerAmount, upperAmount);
+        return scoreRange;
     }
 }

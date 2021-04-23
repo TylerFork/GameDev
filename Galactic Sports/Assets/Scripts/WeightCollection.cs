@@ -16,22 +16,23 @@ public class WeightCollection : MonoBehaviour
 
     Tuple<float, float> ScoreRange;
 
-    // deprecated
-    [Tooltip("Enter the Rect Transform of the target power in Slider")] [SerializeField] RectTransform target;
-
     private void Awake()
     {
-        progressBar = FindObjectOfType<ProgressBar>();
-        SetTotalWeight();
         
+        SetTotalWeight();
     }
 
     private void Start()
     {
+        progressBar = FindObjectOfType<ProgressBar>();
         progressBar.SetSliderTargetWeight(GetTotalWeight());
         progressBar.SetSliderUpperAndLowerMaskFill(weightDifficulty);
         ScoreRange = progressBar.GetScoreRange();
-        print(ScoreRange.Item1.ToString() + " <-" + GetTotalWeight().ToString() + "-> " + ScoreRange.Item2.ToString());
+    }
+
+    private void Update()
+    {
+        
     }
 
     //private Tuple<float, float> SetWeightTargetAndDifficulty()
@@ -77,7 +78,7 @@ public class WeightCollection : MonoBehaviour
     //    return new Tuple<float, float>(bar + buffer, bar - buffer);
     //}
 
-    
+
     void SetTotalWeight()
     {
         float totalWeight = 0f;

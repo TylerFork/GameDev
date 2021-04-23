@@ -5,6 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class LevelLoader : MonoBehaviour
 {
+    [SerializeField] int timeToWait = 3;
+    int currentSceneIndex;
+
+    public IEnumerator WaitForTime()
+    {
+        yield return new WaitForSeconds(timeToWait);
+        LoadNextLevel();
+    }
+
     public void LoadNextLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
