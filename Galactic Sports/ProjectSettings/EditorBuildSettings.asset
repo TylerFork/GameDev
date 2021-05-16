@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/The Clean.unity
     guid: 06f06b31c43f6fc41ba29475b207ea2d
   - enabled: 1
-    path: Assets/Scenes/Bar 1.unity
+    path: Assets/Scenes/The Lift Off.unity
     guid: 600438e6c9e56b147af75e3a31ead54f
   - enabled: 1
     path: Assets/Scenes/SpaceMaze.unity
