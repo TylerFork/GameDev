@@ -1,0 +1,404 @@
+fileFormatVersion: 2
+guid: 9a60b350fc9831a45879fa2a0bfc2511
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8599459541915418209
+    second: Art_PCMazeMarker_Grayson_Dec52020_0
+  - first:
+      213: -5989773540591536361
+    second: Art_PCMazeMarker_Grayson_Dec52020_1
+  - first:
+      213: -3331233952184953669
+    second: Art_PCMazeMarker_Grayson_Dec52020_2
+  - first:
+      213: -3805821729454187581
+    second: Art_PCMazeMarker_Grayson_Dec52020_3
+  - first:
+      213: 3114228797321146258
+    second: Art_PCMazeMarker_Grayson_Dec52020_4
+  - first:
+      213: 1835270813019858137
+    second: Art_PCMazeMarker_Grayson_Dec52020_5
+  - first:
+      213: 3942265022272300921
+    second: Art_PCMazeMarker_Grayson_Dec52020_6
+  - first:
+      213: 2559897894249094458
+    second: Art_PCMazeMarker_Grayson_Dec52020_7
+  - first:
+      213: 1508484771034062436
+    second: Art_PCMazeMarker_Grayson_Dec52020_8
+  - first:
+      213: 1498364199191508086
+    second: Art_PCMazeMarker_Grayson_Dec52020_9
+  - first:
+      213: 6811864422510046862
+    second: Art_PCMazeMarker_Grayson_Dec52020_10
+  - first:
+      213: -3896874152676666133
+    second: Art_PCMazeMarker_Grayson_Dec52020_11
+  - first:
+      213: -134820036445808500
+    second: Art_PCMazeMarker_Grayson_Dec52020_12
+  - first:
+      213: 5603895145790814924
+    second: Art_PCMazeMarker_Grayson_Dec52020_13
+  - first:
+      213: -1646645857653374431
+    second: Art_PCMazeMarker_Grayson_Dec52020_14
+  - first:
+      213: 7659173876261123188
+    second: Art_PCMazeMarker_Grayson_Dec52020_15
+  - first:
+      213: -1896815207786937741
+    second: Art_PCMazeMarker_Grayson_Dec52020_16
+  - first:
+      213: -3532822962551695037
+    second: Art_PCMazeMarker_Grayson_Dec52020_17
+  - first:
+      213: -7162120081799780323
+    second: Art_PCMazeMarker_Grayson_Dec52020_18
+  - first:
+      213: 2305264964415433893
+    second: Art_PCMazeMarker_Grayson_Dec52020_19
+  - first:
+      213: -5356073817914428538
+    second: Art_PCMazeMarker_Grayson_Dec52020_20
+  - first:
+      213: 2586481970616877741
+    second: Art_PCMazeMarker_Grayson_Dec52020_21
+  - first:
+      213: -1594444901536329760
+    second: Art_PCMazeMarker_Grayson_Dec52020_22
+  - first:
+      213: 6747559978272651935
+    second: Art_PCMazeMarker_Grayson_Dec52020_23
+  - first:
+      213: 1969262684127544603
+    second: Art_PCMazeMarker_Grayson_Dec52020_24
+  - first:
+      213: 5781106835565487227
+    second: Art_PCMazeMarker_Grayson_Dec52020_25
+  - first:
+      213: -7589489854872659089
+    second: Art_PCMazeMarker_Grayson_Dec52020_26
+  - first:
+      213: 3978976964715113384
+    second: Art_PCMazeMarker_Grayson_Dec52020_27
+  - first:
+      213: 532919961579288106
+    second: Art_PCMazeMarker_Grayson_Dec52020_28
+  - first:
+      213: 2362629041740734267
+    second: Art_PCMazeMarker_Grayson_Dec52020_29
+  - first:
+      213: 5834894487089466158
+    second: Art_PCMazeMarker_Grayson_Dec52020_30
+  - first:
+      213: -1091648502484514235
+    second: Art_PCMazeMarker_Grayson_Dec52020_31
+  - first:
+      213: 3526438783889003917
+    second: Art_PCMazeMarker_Grayson_Dec52020_0
+  - first:
+      213: 8001792970141827902
+    second: Art_PCMazeMarker_Grayson_Dec52020_1
+  - first:
+      213: 2408621280910985601
+    second: Art_PCMazeMarker_Grayson_Dec52020_2
+  - first:
+      213: 5674719839569229931
+    second: Art_PCMazeMarker_Grayson_Dec52020_3
+  - first:
+      213: 6988249180051706706
+    second: Art_PCMazeMarker_Grayson_Dec52020_4
+  - first:
+      213: -7511556208028250448
+    second: Art_PCMazeMarker_Grayson_Dec52020_5
+  - first:
+      213: -9012007793380751586
+    second: Art_PCMazeMarker_Grayson_Dec52020_6
+  - first:
+      213: 3365818539964434261
+    second: Art_PCMazeMarker_Grayson_Dec52020_7
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Art_PCMazeMarker_Grayson_Dec52020_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91c9c7cb1598a880800000000000000
+      internalID: -8599459541915418209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_PCMazeMarker_Grayson_Dec52020_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717f10433bc00eca0800000000000000
+      internalID: -5989773540591536361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_PCMazeMarker_Grayson_Dec52020_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb49b40ce5415c1d0800000000000000
+      internalID: -3331233952184953669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_PCMazeMarker_Grayson_Dec52020_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb9b691d410f2bc0800000000000000
+      internalID: -3805821729454187581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_PCMazeMarker_Grayson_Dec52020_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f6e9d5796f73b20800000000000000
+      internalID: 3114228797321146258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_PCMazeMarker_Grayson_Dec52020_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4e0bca411387910800000000000000
+      internalID: 1835270813019858137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_PCMazeMarker_Grayson_Dec52020_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977ecf6962db5b630800000000000000
+      internalID: 3942265022272300921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_PCMazeMarker_Grayson_Dec52020_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ddcf76295968320800000000000000
+      internalID: 2559897894249094458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
