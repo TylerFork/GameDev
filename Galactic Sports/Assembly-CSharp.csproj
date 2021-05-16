@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\LevelLoader.cs" />
     <Compile Include="Assets\Scripts\WeightCollection.cs" />
     <Compile Include="Assets\Scripts\MovingPlatform.cs" />
+    <Compile Include="Assets\Scripts\Bar.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Fonts\Dogica\info.txt" />
