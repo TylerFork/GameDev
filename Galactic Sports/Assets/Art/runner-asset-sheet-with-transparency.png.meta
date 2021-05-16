@@ -1,0 +1,6545 @@
+fileFormatVersion: 2
+guid: 2a4d45dab4e35e241bacbd211aeefc90
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1450428306128310148
+    second: runner-asset-sheet-with-transparency_0
+  - first:
+      213: 6886087657637401779
+    second: runner-asset-sheet-with-transparency_1
+  - first:
+      213: -4268797328210254850
+    second: runner-asset-sheet-with-transparency_2
+  - first:
+      213: -2715086209703611556
+    second: runner-asset-sheet-with-transparency_3
+  - first:
+      213: 7466652119371545041
+    second: runner-asset-sheet-with-transparency_4
+  - first:
+      213: -5933277926256746691
+    second: runner-asset-sheet-with-transparency_5
+  - first:
+      213: 626428737318397740
+    second: runner-asset-sheet-with-transparency_6
+  - first:
+      213: -8164912854987599446
+    second: runner-asset-sheet-with-transparency_7
+  - first:
+      213: -6360149161495387047
+    second: runner-asset-sheet-with-transparency_8
+  - first:
+      213: 5047058555332144285
+    second: runner-asset-sheet-with-transparency_9
+  - first:
+      213: -5874730425519939595
+    second: runner-asset-sheet-with-transparency_10
+  - first:
+      213: 1245051716772599504
+    second: runner-asset-sheet-with-transparency_11
+  - first:
+      213: 1965801584603776079
+    second: runner-asset-sheet-with-transparency_12
+  - first:
+      213: -4059526860667887207
+    second: runner-asset-sheet-with-transparency_13
+  - first:
+      213: -8997322545482577298
+    second: runner-asset-sheet-with-transparency_14
+  - first:
+      213: -7278470641513065756
+    second: runner-asset-sheet-with-transparency_15
+  - first:
+      213: -324668255677542411
+    second: runner-asset-sheet-with-transparency_16
+  - first:
+      213: 1643104984751495862
+    second: runner-asset-sheet-with-transparency_17
+  - first:
+      213: -8022967219206164088
+    second: runner-asset-sheet-with-transparency_18
+  - first:
+      213: 1184153991978935195
+    second: runner-asset-sheet-with-transparency_19
+  - first:
+      213: 6999317665063159641
+    second: runner-asset-sheet-with-transparency_20
+  - first:
+      213: 384913430129489445
+    second: runner-asset-sheet-with-transparency_21
+  - first:
+      213: 7568640342540356298
+    second: runner-asset-sheet-with-transparency_22
+  - first:
+      213: 6281409315508404128
+    second: runner-asset-sheet-with-transparency_23
+  - first:
+      213: 3979891274892134089
+    second: runner-asset-sheet-with-transparency_24
+  - first:
+      213: -5003214528793446187
+    second: runner-asset-sheet-with-transparency_25
+  - first:
+      213: 6795032054036444184
+    second: runner-asset-sheet-with-transparency_26
+  - first:
+      213: 307021552477709759
+    second: runner-asset-sheet-with-transparency_27
+  - first:
+      213: -3984803542088684712
+    second: runner-asset-sheet-with-transparency_28
+  - first:
+      213: 1636785480123896661
+    second: runner-asset-sheet-with-transparency_29
+  - first:
+      213: -8898835488316208950
+    second: runner-asset-sheet-with-transparency_30
+  - first:
+      213: -1494499896795368118
+    second: runner-asset-sheet-with-transparency_31
+  - first:
+      213: -9112964073842330600
+    second: runner-asset-sheet-with-transparency_32
+  - first:
+      213: 2387381566287186190
+    second: runner-asset-sheet-with-transparency_33
+  - first:
+      213: -7204718928810694081
+    second: runner-asset-sheet-with-transparency_34
+  - first:
+      213: -6613805713046992129
+    second: runner-asset-sheet-with-transparency_35
+  - first:
+      213: -8494820547213417057
+    second: runner-asset-sheet-with-transparency_36
+  - first:
+      213: 4752423994405767412
+    second: runner-asset-sheet-with-transparency_37
+  - first:
+      213: 5397844476499519295
+    second: runner-asset-sheet-with-transparency_38
+  - first:
+      213: -8573774627777545275
+    second: runner-asset-sheet-with-transparency_39
+  - first:
+      213: 5154069358530095081
+    second: runner-asset-sheet-with-transparency_40
+  - first:
+      213: -5771722544140724191
+    second: runner-asset-sheet-with-transparency_41
+  - first:
+      213: 1704223073487262916
+    second: runner-asset-sheet-with-transparency_42
+  - first:
+      213: 4946034994668983668
+    second: runner-asset-sheet-with-transparency_43
+  - first:
+      213: -6367967766482602808
+    second: runner-asset-sheet-with-transparency_44
+  - first:
+      213: 7895751110704896539
+    second: runner-asset-sheet-with-transparency_45
+  - first:
+      213: -1764384531056673102
+    second: runner-asset-sheet-with-transparency_46
+  - first:
+      213: -4252391676793366473
+    second: runner-asset-sheet-with-transparency_47
+  - first:
+      213: 2348701646361036067
+    second: runner-asset-sheet-with-transparency_48
+  - first:
+      213: 9187163311166401480
+    second: runner-asset-sheet-with-transparency_49
+  - first:
+      213: -3394989810901909975
+    second: runner-asset-sheet-with-transparency_50
+  - first:
+      213: 4363623580264948782
+    second: runner-asset-sheet-with-transparency_51
+  - first:
+      213: 1105140972352360523
+    second: runner-asset-sheet-with-transparency_52
+  - first:
+      213: -1204539676136646369
+    second: runner-asset-sheet-with-transparency_53
+  - first:
+      213: 1000527826854545262
+    second: runner-asset-sheet-with-transparency_54
+  - first:
+      213: -3397980048888623244
+    second: runner-asset-sheet-with-transparency_55
+  - first:
+      213: -5641241185189034587
+    second: runner-asset-sheet-with-transparency_56
+  - first:
+      213: -4675587363610798558
+    second: runner-asset-sheet-with-transparency_57
+  - first:
+      213: 1524100676249393339
+    second: runner-asset-sheet-with-transparency_58
+  - first:
+      213: 1522204586386693002
+    second: runner-asset-sheet-with-transparency_59
+  - first:
+      213: -5318778951198126218
+    second: runner-asset-sheet-with-transparency_60
+  - first:
+      213: 2943898466969554322
+    second: runner-asset-sheet-with-transparency_61
+  - first:
+      213: 5509443129194866389
+    second: runner-asset-sheet-with-transparency_62
+  - first:
+      213: 5243650987612142997
+    second: runner-asset-sheet-with-transparency_63
+  - first:
+      213: 5079419928930362185
+    second: runner-asset-sheet-with-transparency_64
+  - first:
+      213: -1297839777865209749
+    second: runner-asset-sheet-with-transparency_65
+  - first:
+      213: 820150082723338495
+    second: runner-asset-sheet-with-transparency_66
+  - first:
+      213: 8882608365271548240
+    second: runner-asset-sheet-with-transparency_67
+  - first:
+      213: 5689248170163435195
+    second: runner-asset-sheet-with-transparency_68
+  - first:
+      213: -6198234364540936952
+    second: runner-asset-sheet-with-transparency_69
+  - first:
+      213: -4856499049357989591
+    second: runner-asset-sheet-with-transparency_70
+  - first:
+      213: -7377579461541566325
+    second: runner-asset-sheet-with-transparency_71
+  - first:
+      213: -3403742876624548300
+    second: runner-asset-sheet-with-transparency_72
+  - first:
+      213: 8875938585985246935
+    second: runner-asset-sheet-with-transparency_73
+  - first:
+      213: -7661749293059360401
+    second: runner-asset-sheet-with-transparency_74
+  - first:
+      213: -2638852380916637288
+    second: runner-asset-sheet-with-transparency_75
+  - first:
+      213: -5860623795422077170
+    second: runner-asset-sheet-with-transparency_76
+  - first:
+      213: -6509164246901347230
+    second: runner-asset-sheet-with-transparency_77
+  - first:
+      213: 8414503194962292723
+    second: runner-asset-sheet-with-transparency_78
+  - first:
+      213: 8708190469410119620
+    second: runner-asset-sheet-with-transparency_79
+  - first:
+      213: 3445397718636471068
+    second: runner-asset-sheet-with-transparency_80
+  - first:
+      213: -3867775299113738002
+    second: runner-asset-sheet-with-transparency_81
+  - first:
+      213: 7457111129686905900
+    second: runner-asset-sheet-with-transparency_82
+  - first:
+      213: -3809901432158416238
+    second: runner-asset-sheet-with-transparency_83
+  - first:
+      213: 6457297312797790258
+    second: runner-asset-sheet-with-transparency_84
+  - first:
+      213: 5746215050180021556
+    second: runner-asset-sheet-with-transparency_85
+  - first:
+      213: 4915484810918219262
+    second: runner-asset-sheet-with-transparency_86
+  - first:
+      213: 2137024132871099621
+    second: runner-asset-sheet-with-transparency_87
+  - first:
+      213: -5526858093829969943
+    second: runner-asset-sheet-with-transparency_88
+  - first:
+      213: -5172696193955089949
+    second: runner-asset-sheet-with-transparency_89
+  - first:
+      213: -970555972541462361
+    second: runner-asset-sheet-with-transparency_90
+  - first:
+      213: 7307220896605640944
+    second: runner-asset-sheet-with-transparency_91
+  - first:
+      213: 4168257586194352420
+    second: runner-asset-sheet-with-transparency_92
+  - first:
+      213: -5632172562612309690
+    second: runner-asset-sheet-with-transparency_93
+  - first:
+      213: -3751620460297422296
+    second: runner-asset-sheet-with-transparency_94
+  - first:
+      213: -7080080528164106172
+    second: runner-asset-sheet-with-transparency_95
+  - first:
+      213: 8982911296294617754
+    second: runner-asset-sheet-with-transparency_96
+  - first:
+      213: 8713437694582569816
+    second: runner-asset-sheet-with-transparency_97
+  - first:
+      213: 1946615274671052736
+    second: runner-asset-sheet-with-transparency_98
+  - first:
+      213: 6106276545216615086
+    second: runner-asset-sheet-with-transparency_99
+  - first:
+      213: 5660399658060374757
+    second: runner-asset-sheet-with-transparency_100
+  - first:
+      213: -4450329501121714268
+    second: runner-asset-sheet-with-transparency_101
+  - first:
+      213: -5243084701237488139
+    second: runner-asset-sheet-with-transparency_102
+  - first:
+      213: -7127101008986232870
+    second: runner-asset-sheet-with-transparency_103
+  - first:
+      213: -1235048142604965129
+    second: runner-asset-sheet-with-transparency_104
+  - first:
+      213: -9088060326014059725
+    second: runner-asset-sheet-with-transparency_105
+  - first:
+      213: 5651154002080798699
+    second: runner-asset-sheet-with-transparency_106
+  - first:
+      213: -471380651822568756
+    second: runner-asset-sheet-with-transparency_107
+  - first:
+      213: 3298721671296858781
+    second: runner-asset-sheet-with-transparency_108
+  - first:
+      213: -3931702001746409344
+    second: runner-asset-sheet-with-transparency_109
+  - first:
+      213: -3271654336329529547
+    second: runner-asset-sheet-with-transparency_110
+  - first:
+      213: -1146270319378017039
+    second: runner-asset-sheet-with-transparency_111
+  - first:
+      213: 743021943318390234
+    second: runner-asset-sheet-with-transparency_112
+  - first:
+      213: -5008859705531012153
+    second: runner-asset-sheet-with-transparency_113
+  - first:
+      213: 8711429444765624
+    second: runner-asset-sheet-with-transparency_114
+  - first:
+      213: -2501106091263510626
+    second: runner-asset-sheet-with-transparency_115
+  - first:
+      213: 8744796615178170899
+    second: runner-asset-sheet-with-transparency_116
+  - first:
+      213: -2981102862234940144
+    second: runner-asset-sheet-with-transparency_117
+  - first:
+      213: -6203577562030570147
+    second: runner-asset-sheet-with-transparency_118
+  - first:
+      213: 2172557293059174776
+    second: runner-asset-sheet-with-transparency_119
+  - first:
+      213: 9016715971494216074
+    second: runner-asset-sheet-with-transparency_120
+  - first:
+      213: -3170579006580718071
+    second: runner-asset-sheet-with-transparency_121
+  - first:
+      213: 1400576715479834905
+    second: runner-asset-sheet-with-transparency_122
+  - first:
+      213: 8139519955423280946
+    second: runner-asset-sheet-with-transparency_123
+  - first:
+      213: -898294632371836231
+    second: runner-asset-sheet-with-transparency_124
+  - first:
+      213: 795201538609838153
+    second: runner-asset-sheet-with-transparency_125
+  - first:
+      213: 3878814523674414554
+    second: runner-asset-sheet-with-transparency_126
+  - first:
+      213: 4426553456464581240
+    second: runner-asset-sheet-with-transparency_127
+  - first:
+      213: -3235458828115595394
+    second: runner-asset-sheet-with-transparency_128
+  - first:
+      213: 484041532200427586
+    second: runner-asset-sheet-with-transparency_129
+  - first:
+      213: 7066783448603174365
+    second: runner-asset-sheet-with-transparency_130
+  - first:
+      213: -8197117771943576548
+    second: runner-asset-sheet-with-transparency_131
+  - first:
+      213: -7072009347628602423
+    second: runner-asset-sheet-with-transparency_132
+  - first:
+      213: 4694976148762081264
+    second: runner-asset-sheet-with-transparency_133
+  - first:
+      213: -4454133634198283737
+    second: runner-asset-sheet-with-transparency_134
+  - first:
+      213: -3180316290490741529
+    second: runner-asset-sheet-with-transparency_135
+  - first:
+      213: -6267899227736245879
+    second: runner-asset-sheet-with-transparency_136
+  - first:
+      213: -2806501727281118980
+    second: runner-asset-sheet-with-transparency_137
+  - first:
+      213: -2404740492527454021
+    second: runner-asset-sheet-with-transparency_138
+  - first:
+      213: 3533748913064955158
+    second: runner-asset-sheet-with-transparency_139
+  - first:
+      213: 4473773562826347196
+    second: runner-asset-sheet-with-transparency_140
+  - first:
+      213: -5219999118809380998
+    second: runner-asset-sheet-with-transparency_141
+  - first:
+      213: -8298490567409711949
+    second: runner-asset-sheet-with-transparency_142
+  - first:
+      213: 2796646359819865443
+    second: runner-asset-sheet-with-transparency_143
+  - first:
+      213: -741508367615548922
+    second: runner-asset-sheet-with-transparency_144
+  - first:
+      213: -3629154962810893653
+    second: runner-asset-sheet-with-transparency_145
+  - first:
+      213: 8768696423379882044
+    second: runner-asset-sheet-with-transparency_146
+  - first:
+      213: -4100191710302401127
+    second: runner-asset-sheet-with-transparency_147
+  - first:
+      213: 4196575466340498919
+    second: runner-asset-sheet-with-transparency_148
+  - first:
+      213: 5076571357534757668
+    second: runner-asset-sheet-with-transparency_149
+  - first:
+      213: 6131849647040366767
+    second: runner-asset-sheet-with-transparency_150
+  - first:
+      213: -7498583318804484340
+    second: runner-asset-sheet-with-transparency_151
+  - first:
+      213: 7449035036822737032
+    second: runner-asset-sheet-with-transparency_152
+  - first:
+      213: -4873495647912803689
+    second: runner-asset-sheet-with-transparency_153
+  - first:
+      213: -944308300755802092
+    second: runner-asset-sheet-with-transparency_154
+  - first:
+      213: -5875776716623811190
+    second: runner-asset-sheet-with-transparency_155
+  - first:
+      213: -2041896296790213321
+    second: runner-asset-sheet-with-transparency_156
+  - first:
+      213: 6432458744397205769
+    second: runner-asset-sheet-with-transparency_157
+  - first:
+      213: -7432069843734994302
+    second: runner-asset-sheet-with-transparency_158
+  - first:
+      213: 7184767839416244815
+    second: runner-asset-sheet-with-transparency_159
+  - first:
+      213: 1035129740467927779
+    second: runner-asset-sheet-with-transparency_160
+  - first:
+      213: 5380100419885723150
+    second: runner-asset-sheet-with-transparency_161
+  - first:
+      213: -6228511992854868958
+    second: runner-asset-sheet-with-transparency_162
+  - first:
+      213: -4374921908797970449
+    second: runner-asset-sheet-with-transparency_163
+  - first:
+      213: 9214292173359132286
+    second: runner-asset-sheet-with-transparency_164
+  - first:
+      213: 6098262683709585032
+    second: runner-asset-sheet-with-transparency_165
+  - first:
+      213: -7277919562585935306
+    second: runner-asset-sheet-with-transparency_166
+  - first:
+      213: -4273201774934366910
+    second: runner-asset-sheet-with-transparency_167
+  - first:
+      213: -8657305801183643611
+    second: runner-asset-sheet-with-transparency_168
+  - first:
+      213: -7527037106650802323
+    second: runner-asset-sheet-with-transparency_169
+  - first:
+      213: -7483138385966751303
+    second: runner-asset-sheet-with-transparency_170
+  - first:
+      213: -2586411817417486334
+    second: runner-asset-sheet-with-transparency_171
+  - first:
+      213: 4854487745685716546
+    second: runner-asset-sheet-with-transparency_172
+  - first:
+      213: -5368804057611979919
+    second: runner-asset-sheet-with-transparency_173
+  - first:
+      213: -4557178571235825147
+    second: runner-asset-sheet-with-transparency_174
+  - first:
+      213: -3937905460876669885
+    second: runner-asset-sheet-with-transparency_175
+  - first:
+      213: 5637964842691301175
+    second: runner-asset-sheet-with-transparency_176
+  - first:
+      213: 6318205579614262564
+    second: runner-asset-sheet-with-transparency_177
+  - first:
+      213: -1622529492157685878
+    second: runner-asset-sheet-with-transparency_178
+  - first:
+      213: -2014548534306981973
+    second: runner-asset-sheet-with-transparency_179
+  - first:
+      213: -5412818175214939114
+    second: runner-asset-sheet-with-transparency_180
+  - first:
+      213: 6281856496879643765
+    second: runner-asset-sheet-with-transparency_181
+  - first:
+      213: 5428090015306361004
+    second: runner-asset-sheet-with-transparency_182
+  - first:
+      213: 4883282947283837520
+    second: runner-asset-sheet-with-transparency_183
+  - first:
+      213: -4143966009810447226
+    second: runner-asset-sheet-with-transparency_184
+  - first:
+      213: 7447485896619999305
+    second: runner-asset-sheet-with-transparency_185
+  - first:
+      213: -1083779831926105511
+    second: runner-asset-sheet-with-transparency_186
+  - first:
+      213: 7291667835026574658
+    second: runner-asset-sheet-with-transparency_187
+  - first:
+      213: 6990052964287983248
+    second: runner-asset-sheet-with-transparency_188
+  - first:
+      213: -3286705619384752103
+    second: runner-asset-sheet-with-transparency_189
+  - first:
+      213: 1879339866258254225
+    second: runner-asset-sheet-with-transparency_190
+  - first:
+      213: 847913841535355566
+    second: runner-asset-sheet-with-transparency_191
+  - first:
+      213: -1280666347519287105
+    second: runner-asset-sheet-with-transparency_192
+  - first:
+      213: 7585481677114867886
+    second: runner-asset-sheet-with-transparency_193
+  - first:
+      213: -7484257126121047631
+    second: runner-asset-sheet-with-transparency_194
+  - first:
+      213: -5213878403198135242
+    second: runner-asset-sheet-with-transparency_195
+  - first:
+      213: 7889961059899909461
+    second: runner-asset-sheet-with-transparency_196
+  - first:
+      213: 4124264710903936414
+    second: runner-asset-sheet-with-transparency_197
+  - first:
+      213: 9080118751177842175
+    second: runner-asset-sheet-with-transparency_198
+  - first:
+      213: -1613471177519396697
+    second: runner-asset-sheet-with-transparency_199
+  - first:
+      213: -882241833475957295
+    second: runner-asset-sheet-with-transparency_200
+  - first:
+      213: -7345742496543247097
+    second: runner-asset-sheet-with-transparency_201
+  - first:
+      213: 1725706959531741195
+    second: runner-asset-sheet-with-transparency_202
+  - first:
+      213: -7167745291166501558
+    second: runner-asset-sheet-with-transparency_203
+  - first:
+      213: -3656554347101734919
+    second: runner-asset-sheet-with-transparency_204
+  - first:
+      213: 3885855334127596175
+    second: runner-asset-sheet-with-transparency_205
+  - first:
+      213: -8648637383404676834
+    second: runner-asset-sheet-with-transparency_206
+  - first:
+      213: 1738819097458599425
+    second: runner-asset-sheet-with-transparency_207
+  - first:
+      213: 547525079615110683
+    second: runner-asset-sheet-with-transparency_208
+  - first:
+      213: 1799222586325598838
+    second: runner-asset-sheet-with-transparency_209
+  - first:
+      213: 3188416367562531126
+    second: runner-asset-sheet-with-transparency_210
+  - first:
+      213: -7900836241936013709
+    second: runner-asset-sheet-with-transparency_211
+  - first:
+      213: -4109184098637252625
+    second: runner-asset-sheet-with-transparency_212
+  - first:
+      213: 3465422188596448699
+    second: runner-asset-sheet-with-transparency_213
+  - first:
+      213: -6339338227745933100
+    second: runner-asset-sheet-with-transparency_214
+  - first:
+      213: 175598127106728339
+    second: runner-asset-sheet-with-transparency_215
+  - first:
+      213: -8288135820682779545
+    second: runner-asset-sheet-with-transparency_216
+  - first:
+      213: -6375540756546360525
+    second: runner-asset-sheet-with-transparency_217
+  - first:
+      213: -6169757223423928293
+    second: runner-asset-sheet-with-transparency_218
+  - first:
+      213: 3888070014769685573
+    second: runner-asset-sheet-with-transparency_219
+  - first:
+      213: -2428896359316013604
+    second: runner-asset-sheet-with-transparency_220
+  - first:
+      213: -2692483257753606176
+    second: runner-asset-sheet-with-transparency_221
+  - first:
+      213: -262061465287946535
+    second: runner-asset-sheet-with-transparency_222
+  - first:
+      213: 3596771202976868778
+    second: runner-asset-sheet-with-transparency_223
+  - first:
+      213: -2863912357794670387
+    second: runner-asset-sheet-with-transparency_224
+  - first:
+      213: 2673145875296306198
+    second: runner-asset-sheet-with-transparency_225
+  - first:
+      213: -7895777704808760783
+    second: runner-asset-sheet-with-transparency_226
+  - first:
+      213: 3081624559113817514
+    second: runner-asset-sheet-with-transparency_227
+  - first:
+      213: 3107018891015515880
+    second: runner-asset-sheet-with-transparency_228
+  - first:
+      213: -5779275616969328453
+    second: runner-asset-sheet-with-transparency_229
+  - first:
+      213: 1519303164345955594
+    second: runner-asset-sheet-with-transparency_230
+  - first:
+      213: -8081078675204039722
+    second: runner-asset-sheet-with-transparency_231
+  - first:
+      213: 6280384815167399238
+    second: runner-asset-sheet-with-transparency_232
+  - first:
+      213: -3959918982287631749
+    second: runner-asset-sheet-with-transparency_233
+  - first:
+      213: -4241483507051169689
+    second: runner-asset-sheet-with-transparency_234
+  - first:
+      213: -5115914705848559092
+    second: runner-asset-sheet-with-transparency_235
+  - first:
+      213: -7039963190387962912
+    second: runner-asset-sheet-with-transparency_236
+  - first:
+      213: -2803816273342298101
+    second: runner-asset-sheet-with-transparency_237
+  - first:
+      213: 8171311668002379321
+    second: runner-asset-sheet-with-transparency_238
+  - first:
+      213: 6045941532763281646
+    second: runner-asset-sheet-with-transparency_239
+  - first:
+      213: -6189438083565886107
+    second: runner-asset-sheet-with-transparency_240
+  - first:
+      213: -516372889489454624
+    second: runner-asset-sheet-with-transparency_241
+  - first:
+      213: 4988472686953961807
+    second: runner-asset-sheet-with-transparency_242
+  - first:
+      213: 2539718635264611314
+    second: runner-asset-sheet-with-transparency_243
+  - first:
+      213: -1221027382931118839
+    second: runner-asset-sheet-with-transparency_244
+  - first:
+      213: -4662597160021346450
+    second: runner-asset-sheet-with-transparency_245
+  - first:
+      213: -1650122554423977882
+    second: runner-asset-sheet-with-transparency_246
+  - first:
+      213: -2134241988226103217
+    second: runner-asset-sheet-with-transparency_247
+  - first:
+      213: -4370348436531956838
+    second: runner-asset-sheet-with-transparency_248
+  - first:
+      213: 8183861792790886239
+    second: runner-asset-sheet-with-transparency_249
+  - first:
+      213: -5640980699563199719
+    second: runner-asset-sheet-with-transparency_250
+  - first:
+      213: 2951075958131349618
+    second: runner-asset-sheet-with-transparency_251
+  - first:
+      213: 1608679163657258138
+    second: runner-asset-sheet-with-transparency_252
+  - first:
+      213: -2467662262954037883
+    second: runner-asset-sheet-with-transparency_253
+  - first:
+      213: 689964700138571719
+    second: runner-asset-sheet-with-transparency_254
+  - first:
+      213: -7871471715109426144
+    second: runner-asset-sheet-with-transparency_255
+  - first:
+      213: 4862679490041128525
+    second: runner-asset-sheet-with-transparency_256
+  - first:
+      213: 4844037159147721669
+    second: runner-asset-sheet-with-transparency_257
+  - first:
+      213: -3876555676073668173
+    second: runner-asset-sheet-with-transparency_258
+  - first:
+      213: -9212152810440243108
+    second: runner-asset-sheet-with-transparency_259
+  - first:
+      213: 8596508509830714749
+    second: runner-asset-sheet-with-transparency_260
+  - first:
+      213: -3919387719188778743
+    second: runner-asset-sheet-with-transparency_261
+  - first:
+      213: -8804646651454891862
+    second: runner-asset-sheet-with-transparency_262
+  - first:
+      213: 2028577818337231732
+    second: runner-asset-sheet-with-transparency_263
+  - first:
+      213: -878397284847125036
+    second: runner-asset-sheet-with-transparency_264
+  - first:
+      213: -4810081834065345602
+    second: runner-asset-sheet-with-transparency_265
+  - first:
+      213: -2960013597535880468
+    second: runner-asset-sheet-with-transparency_266
+  - first:
+      213: -460547106895912284
+    second: runner-asset-sheet-with-transparency_267
+  - first:
+      213: 6966815460071245316
+    second: runner-asset-sheet-with-transparency_268
+  - first:
+      213: -3191492991964416212
+    second: runner-asset-sheet-with-transparency_269
+  - first:
+      213: 422404126031238777
+    second: runner-asset-sheet-with-transparency_270
+  - first:
+      213: -5844225510997805184
+    second: runner-asset-sheet-with-transparency_271
+  - first:
+      213: -975679438100007308
+    second: runner-asset-sheet-with-transparency_272
+  - first:
+      213: -8551024918808029218
+    second: runner-asset-sheet-with-transparency_273
+  - first:
+      213: -8122264875947197165
+    second: runner-asset-sheet-with-transparency_274
+  - first:
+      213: 7790714868637326157
+    second: runner-asset-sheet-with-transparency_275
+  - first:
+      213: 7206924922547265180
+    second: runner-asset-sheet-with-transparency_276
+  - first:
+      213: -8143364486148127200
+    second: runner-asset-sheet-with-transparency_277
+  - first:
+      213: -6417213175598753436
+    second: runner-asset-sheet-with-transparency_278
+  - first:
+      213: 6019739069157305917
+    second: runner-asset-sheet-with-transparency_279
+  - first:
+      213: -2919379162320401257
+    second: runner-asset-sheet-with-transparency_280
+  - first:
+      213: 4362264459074052785
+    second: runner-asset-sheet-with-transparency_281
+  - first:
+      213: 2608357889758441464
+    second: runner-asset-sheet-with-transparency_282
+  - first:
+      213: -5858729226296589255
+    second: runner-asset-sheet-with-transparency_283
+  - first:
+      213: -5255490348852870698
+    second: runner-asset-sheet-with-transparency_284
+  - first:
+      213: -3570124437261871946
+    second: runner-asset-sheet-with-transparency_285
+  - first:
+      213: -2730928332807539002
+    second: runner-asset-sheet-with-transparency_286
+  - first:
+      213: -1134420520616007238
+    second: runner-asset-sheet-with-transparency_287
+  - first:
+      213: 7356746083740526946
+    second: runner-asset-sheet-with-transparency_288
+  - first:
+      213: -1289668922278092926
+    second: runner-asset-sheet-with-transparency_289
+  - first:
+      213: 6615992472257651281
+    second: runner-asset-sheet-with-transparency_290
+  - first:
+      213: -7624504871741770569
+    second: runner-asset-sheet-with-transparency_291
+  - first:
+      213: -3597630608149854157
+    second: runner-asset-sheet-with-transparency_292
+  - first:
+      213: -6332278894255778653
+    second: runner-asset-sheet-with-transparency_293
+  - first:
+      213: -2015054915908437270
+    second: runner-asset-sheet-with-transparency_294
+  - first:
+      213: -6782797242687434376
+    second: runner-asset-sheet-with-transparency_295
+  - first:
+      213: 1221974943086650365
+    second: runner-asset-sheet-with-transparency_296
+  - first:
+      213: 492660968997086507
+    second: runner-asset-sheet-with-transparency_297
+  - first:
+      213: 3270819747885948593
+    second: runner-asset-sheet-with-transparency_298
+  - first:
+      213: -5440155757536776513
+    second: runner-asset-sheet-with-transparency_299
+  - first:
+      213: -4460706400898480077
+    second: runner-asset-sheet-with-transparency_300
+  - first:
+      213: -4722191788525310569
+    second: runner-asset-sheet-with-transparency_301
+  - first:
+      213: -6468489876166064947
+    second: runner-asset-sheet-with-transparency_302
+  - first:
+      213: -8033465929355108001
+    second: runner-asset-sheet-with-transparency_303
+  - first:
+      213: -1247648532402732054
+    second: runner-asset-sheet-with-transparency_304
+  - first:
+      213: 5466952905868832728
+    second: runner-asset-sheet-with-transparency_305
+  - first:
+      213: 3186684240355384958
+    second: runner-asset-sheet-with-transparency_306
+  - first:
+      213: -1147365681631150325
+    second: runner-asset-sheet-with-transparency_307
+  - first:
+      213: -6907675893112719770
+    second: runner-asset-sheet-with-transparency_308
+  - first:
+      213: 8372276316701912558
+    second: runner-asset-sheet-with-transparency_309
+  - first:
+      213: 2405191706908117721
+    second: runner-asset-sheet-with-transparency_310
+  - first:
+      213: 8259650669829003678
+    second: runner-asset-sheet-with-transparency_311
+  - first:
+      213: -2182406464350826125
+    second: runner-asset-sheet-with-transparency_312
+  - first:
+      213: -7392049551716942928
+    second: runner-asset-sheet-with-transparency_313
+  - first:
+      213: 5832899152676263871
+    second: runner-asset-sheet-with-transparency_314
+  - first:
+      213: 2722751609820739042
+    second: runner-asset-sheet-with-transparency_315
+  - first:
+      213: 1398684867987890736
+    second: runner-asset-sheet-with-transparency_316
+  - first:
+      213: -3472414241857869423
+    second: runner-asset-sheet-with-transparency_317
+  - first:
+      213: -5497231060083111727
+    second: runner-asset-sheet-with-transparency_318
+  - first:
+      213: 1186196448324471271
+    second: runner-asset-sheet-with-transparency_319
+  - first:
+      213: -4695357378785033444
+    second: runner-asset-sheet-with-transparency_320
+  - first:
+      213: -8181599896906072948
+    second: runner-asset-sheet-with-transparency_321
+  - first:
+      213: -3984010569957354843
+    second: runner-asset-sheet-with-transparency_322
+  - first:
+      213: 3462742017975013915
+    second: runner-asset-sheet-with-transparency_323
+  - first:
+      213: 311471864499974250
+    second: runner-asset-sheet-with-transparency_324
+  - first:
+      213: 8412799449397886606
+    second: runner-asset-sheet-with-transparency_325
+  - first:
+      213: 2764647375320419997
+    second: runner-asset-sheet-with-transparency_326
+  - first:
+      213: 8139544169486185650
+    second: runner-asset-sheet-with-transparency_327
+  - first:
+      213: -7393145651610070929
+    second: runner-asset-sheet-with-transparency_328
+  - first:
+      213: -5942793405204757879
+    second: runner-asset-sheet-with-transparency_329
+  - first:
+      213: 5702205020144271398
+    second: runner-asset-sheet-with-transparency_330
+  - first:
+      213: 3387816299005631689
+    second: runner-asset-sheet-with-transparency_331
+  - first:
+      213: -7148128264719513369
+    second: runner-asset-sheet-with-transparency_332
+  - first:
+      213: 1775005977326591237
+    second: runner-asset-sheet-with-transparency_333
+  - first:
+      213: 436622603968516857
+    second: runner-asset-sheet-with-transparency_334
+  - first:
+      213: -2890069734695510630
+    second: runner-asset-sheet-with-transparency_335
+  - first:
+      213: 9100594421886941136
+    second: runner-asset-sheet-with-transparency_336
+  - first:
+      213: -323838561422676882
+    second: runner-asset-sheet-with-transparency_337
+  - first:
+      213: -8788663062441247807
+    second: runner-asset-sheet-with-transparency_338
+  - first:
+      213: 2858977085986339616
+    second: runner-asset-sheet-with-transparency_339
+  - first:
+      213: -5624333479332177979
+    second: runner-asset-sheet-with-transparency_340
+  - first:
+      213: -5965395405003829039
+    second: runner-asset-sheet-with-transparency_341
+  - first:
+      213: 604086083184872811
+    second: runner-asset-sheet-with-transparency_342
+  - first:
+      213: 7535443588917795088
+    second: runner-asset-sheet-with-transparency_343
+  - first:
+      213: 5374797136912282320
+    second: runner-asset-sheet-with-transparency_344
+  - first:
+      213: 8728520206477173685
+    second: runner-asset-sheet-with-transparency_345
+  - first:
+      213: -5021497149778691990
+    second: runner-asset-sheet-with-transparency_346
+  - first:
+      213: -8962657411086196341
+    second: runner-asset-sheet-with-transparency_347
+  - first:
+      213: 8659862540100295189
+    second: runner-asset-sheet-with-transparency_348
+  - first:
+      213: -3942437968882171308
+    second: runner-asset-sheet-with-transparency_349
+  - first:
+      213: -2031625416858199040
+    second: runner-asset-sheet-with-transparency_350
+  - first:
+      213: -1293696518707537131
+    second: runner-asset-sheet-with-transparency_351
+  - first:
+      213: -7841608120976521183
+    second: runner-asset-sheet-with-transparency_352
+  - first:
+      213: -7973803182647503527
+    second: runner-asset-sheet-with-transparency_353
+  - first:
+      213: -2806606977646982394
+    second: runner-asset-sheet-with-transparency_354
+  - first:
+      213: 2031121773104406313
+    second: runner-asset-sheet-with-transparency_355
+  - first:
+      213: 1517136893893153512
+    second: runner-asset-sheet-with-transparency_356
+  - first:
+      213: 7488417566057034765
+    second: runner-asset-sheet-with-transparency_357
+  - first:
+      213: -8169426060814075756
+    second: runner-asset-sheet-with-transparency_358
+  - first:
+      213: -7249716860936077006
+    second: runner-asset-sheet-with-transparency_359
+  - first:
+      213: -814911466115064061
+    second: runner-asset-sheet-with-transparency_360
+  - first:
+      213: -2695202665654048828
+    second: runner-asset-sheet-with-transparency_361
+  - first:
+      213: 6653937701403382489
+    second: runner-asset-sheet-with-transparency_362
+  - first:
+      213: 7948023687884709591
+    second: runner-asset-sheet-with-transparency_363
+  - first:
+      213: -3428150337150019216
+    second: runner-asset-sheet-with-transparency_364
+  - first:
+      213: 4445211622883276240
+    second: runner-asset-sheet-with-transparency_365
+  - first:
+      213: 2359138685729448738
+    second: runner-asset-sheet-with-transparency_366
+  - first:
+      213: -4063773642694393479
+    second: runner-asset-sheet-with-transparency_367
+  - first:
+      213: 1555188064929959889
+    second: runner-asset-sheet-with-transparency_368
+  - first:
+      213: 798807377196582829
+    second: runner-asset-sheet-with-transparency_369
+  - first:
+      213: -8412701293530302424
+    second: runner-asset-sheet-with-transparency_370
+  - first:
+      213: -1172414830979070148
+    second: runner-asset-sheet-with-transparency_371
+  - first:
+      213: -84912666107351906
+    second: runner-asset-sheet-with-transparency_372
+  - first:
+      213: 7274419556869244569
+    second: runner-asset-sheet-with-transparency_373
+  - first:
+      213: 4530956474713051812
+    second: runner-asset-sheet-with-transparency_374
+  - first:
+      213: 648510482452303526
+    second: runner-asset-sheet-with-transparency_375
+  - first:
+      213: -2400781132289957526
+    second: runner-asset-sheet-with-transparency_376
+  - first:
+      213: 4919128686201104628
+    second: runner-asset-sheet-with-transparency_377
+  - first:
+      213: -6720741204140707006
+    second: runner-asset-sheet-with-transparency_378
+  - first:
+      213: -2422605990944440245
+    second: runner-asset-sheet-with-transparency_379
+  - first:
+      213: -3308805493087903543
+    second: runner-asset-sheet-with-transparency_380
+  - first:
+      213: -6312006676109849002
+    second: runner-asset-sheet-with-transparency_381
+  - first:
+      213: -2951958544235606221
+    second: runner-asset-sheet-with-transparency_382
+  - first:
+      213: -2855209239442951858
+    second: runner-asset-sheet-with-transparency_383
+  - first:
+      213: -4658673226457073642
+    second: runner-asset-sheet-with-transparency_384
+  - first:
+      213: -8784727307540180377
+    second: runner-asset-sheet-with-transparency_385
+  - first:
+      213: -208440505128680435
+    second: runner-asset-sheet-with-transparency_386
+  - first:
+      213: -7770512208977958096
+    second: runner-asset-sheet-with-transparency_387
+  - first:
+      213: -1709348205721623046
+    second: runner-asset-sheet-with-transparency_388
+  - first:
+      213: 7766326002539757067
+    second: runner-asset-sheet-with-transparency_389
+  - first:
+      213: -672816278668409160
+    second: runner-asset-sheet-with-transparency_390
+  - first:
+      213: -5439876005528875978
+    second: runner-asset-sheet-with-transparency_391
+  - first:
+      213: -9064128736707722728
+    second: runner-asset-sheet-with-transparency_392
+  - first:
+      213: -2222528945390524822
+    second: runner-asset-sheet-with-transparency_393
+  - first:
+      213: -698323385854439308
+    second: runner-asset-sheet-with-transparency_394
+  - first:
+      213: -3304820025277697599
+    second: runner-asset-sheet-with-transparency_395
+  - first:
+      213: -2034916911178917205
+    second: runner-asset-sheet-with-transparency_396
+  - first:
+      213: 8141906339424118710
+    second: runner-asset-sheet-with-transparency_397
+  - first:
+      213: -1726857072246911080
+    second: runner-asset-sheet-with-transparency_398
+  - first:
+      213: 2945320155467120622
+    second: runner-asset-sheet-with-transparency_399
+  - first:
+      213: -103757253297026542
+    second: runner-asset-sheet-with-transparency_400
+  - first:
+      213: 5505723583788878824
+    second: runner-asset-sheet-with-transparency_401
+  - first:
+      213: 1588729019289610267
+    second: runner-asset-sheet-with-transparency_402
+  - first:
+      213: -1144977501504721885
+    second: runner-asset-sheet-with-transparency_403
+  - first:
+      213: -3735234179692051332
+    second: runner-asset-sheet-with-transparency_404
+  - first:
+      213: -2768017865022348590
+    second: runner-asset-sheet-with-transparency_405
+  - first:
+      213: -1962432510866625249
+    second: runner-asset-sheet-with-transparency_406
+  - first:
+      213: 2648810358082390168
+    second: runner-asset-sheet-with-transparency_407
+  - first:
+      213: 643088859348822841
+    second: runner-asset-sheet-with-transparency_408
+  - first:
+      213: 419324097635911014
+    second: runner-asset-sheet-with-transparency_409
+  - first:
+      213: 5176486407692111029
+    second: runner-asset-sheet-with-transparency_410
+  - first:
+      213: -2884534873335866976
+    second: runner-asset-sheet-with-transparency_411
+  - first:
+      213: 8029758556990349486
+    second: runner-asset-sheet-with-transparency_412
+  - first:
+      213: -7959279603319790343
+    second: runner-asset-sheet-with-transparency_413
+  - first:
+      213: -2408849705685155972
+    second: runner-asset-sheet-with-transparency_414
+  - first:
+      213: -4043537104570297106
+    second: runner-asset-sheet-with-transparency_415
+  - first:
+      213: -4675730107461053157
+    second: runner-asset-sheet-with-transparency_416
+  - first:
+      213: -192107888280043717
+    second: runner-asset-sheet-with-transparency_417
+  - first:
+      213: -125577478247192536
+    second: runner-asset-sheet-with-transparency_418
+  - first:
+      213: 7767051252283590041
+    second: runner-asset-sheet-with-transparency_419
+  - first:
+      213: -9208266712737470475
+    second: runner-asset-sheet-with-transparency_420
+  - first:
+      213: 1632883830925628523
+    second: runner-asset-sheet-with-transparency_421
+  - first:
+      213: -1342452813705088610
+    second: runner-asset-sheet-with-transparency_422
+  - first:
+      213: 7802445601059316850
+    second: runner-asset-sheet-with-transparency_423
+  - first:
+      213: -5302385377010738081
+    second: runner-asset-sheet-with-transparency_424
+  - first:
+      213: 8153923546485343036
+    second: runner-asset-sheet-with-transparency_425
+  - first:
+      213: 5883648605695499115
+    second: runner-asset-sheet-with-transparency_426
+  - first:
+      213: 3850219991793453727
+    second: runner-asset-sheet-with-transparency_427
+  - first:
+      213: -3081526121016556705
+    second: runner-asset-sheet-with-transparency_428
+  - first:
+      213: 3490222939799304531
+    second: runner-asset-sheet-with-transparency_429
+  - first:
+      213: -5417028667161528163
+    second: runner-asset-sheet-with-transparency_430
+  - first:
+      213: 3964942977747890719
+    second: runner-asset-sheet-with-transparency_431
+  - first:
+      213: 7522230715264369239
+    second: runner-asset-sheet-with-transparency_432
+  - first:
+      213: -5741134989725602572
+    second: runner-asset-sheet-with-transparency_433
+  - first:
+      213: 5492868226717590802
+    second: runner-asset-sheet-with-transparency_434
+  - first:
+      213: -1848851908863886467
+    second: runner-asset-sheet-with-transparency_435
+  - first:
+      213: -1495126805301040573
+    second: runner-asset-sheet-with-transparency_436
+  - first:
+      213: 276818076281010553
+    second: runner-asset-sheet-with-transparency_437
+  - first:
+      213: 7617136340121266597
+    second: runner-asset-sheet-with-transparency_438
+  - first:
+      213: -1480288694203193338
+    second: runner-asset-sheet-with-transparency_439
+  - first:
+      213: 5881869944130193085
+    second: runner-asset-sheet-with-transparency_440
+  - first:
+      213: -7636162421664888196
+    second: runner-asset-sheet-with-transparency_441
+  - first:
+      213: -4171155269921906764
+    second: runner-asset-sheet-with-transparency_442
+  - first:
+      213: 3097768511967098583
+    second: runner-asset-sheet-with-transparency_443
+  - first:
+      213: 2782594876988002705
+    second: runner-asset-sheet-with-transparency_444
+  - first:
+      213: 4417500490103350216
+    second: runner-asset-sheet-with-transparency_445
+  - first:
+      213: -5650166063704792755
+    second: runner-asset-sheet-with-transparency_446
+  - first:
+      213: -3521742780659158346
+    second: runner-asset-sheet-with-transparency_447
+  - first:
+      213: -902414289642712721
+    second: runner-asset-sheet-with-transparency_448
+  - first:
+      213: 6769913558221700392
+    second: runner-asset-sheet-with-transparency_449
+  - first:
+      213: 4638856577231961989
+    second: runner-asset-sheet-with-transparency_450
+  - first:
+      213: 944418219277560952
+    second: runner-asset-sheet-with-transparency_451
+  - first:
+      213: 198616623610812465
+    second: runner-asset-sheet-with-transparency_452
+  - first:
+      213: -7776511877536374929
+    second: runner-asset-sheet-with-transparency_453
+  - first:
+      213: -7252037802822996887
+    second: runner-asset-sheet-with-transparency_454
+  - first:
+      213: -4239834784377908595
+    second: runner-asset-sheet-with-transparency_455
+  - first:
+      213: 6658389916757598958
+    second: runner-asset-sheet-with-transparency_456
+  - first:
+      213: -619577732457281016
+    second: runner-asset-sheet-with-transparency_457
+  - first:
+      213: 6079381369425297382
+    second: runner-asset-sheet-with-transparency_458
+  - first:
+      213: -5420351977032008749
+    second: runner-asset-sheet-with-transparency_459
+  - first:
+      213: -6882937882457696019
+    second: runner-asset-sheet-with-transparency_460
+  - first:
+      213: 4417983777535455354
+    second: runner-asset-sheet-with-transparency_461
+  - first:
+      213: 4103929703203004650
+    second: runner-asset-sheet-with-transparency_462
+  - first:
+      213: 1626650249279212495
+    second: runner-asset-sheet-with-transparency_463
+  - first:
+      213: -1109480720081195494
+    second: runner-asset-sheet-with-transparency_464
+  - first:
+      213: -1439278946650771490
+    second: runner-asset-sheet-with-transparency_465
+  - first:
+      213: 5971434244332685669
+    second: runner-asset-sheet-with-transparency_466
+  - first:
+      213: 8583820628222573199
+    second: runner-asset-sheet-with-transparency_467
+  - first:
+      213: 6228964807188412975
+    second: runner-asset-sheet-with-transparency_468
+  - first:
+      213: 6075801736126430513
+    second: runner-asset-sheet-with-transparency_469
+  - first:
+      213: -8338396001786145311
+    second: runner-asset-sheet-with-transparency_470
+  - first:
+      213: 5571635553235231870
+    second: runner-asset-sheet-with-transparency_471
+  - first:
+      213: 8684210917038013325
+    second: runner-asset-sheet-with-transparency_472
+  - first:
+      213: -5520957817527962623
+    second: runner-asset-sheet-with-transparency_473
+  - first:
+      213: 7497784725080902753
+    second: runner-asset-sheet-with-transparency_474
+  - first:
+      213: -7420556381563669235
+    second: runner-asset-sheet-with-transparency_475
+  - first:
+      213: 7107253722542745818
+    second: runner-asset-sheet-with-transparency_476
+  - first:
+      213: -8955978354379612913
+    second: runner-asset-sheet-with-transparency_477
+  - first:
+      213: -2725221926559611359
+    second: runner-asset-sheet-with-transparency_478
+  - first:
+      213: 4438685743520661006
+    second: runner-asset-sheet-with-transparency_479
+  - first:
+      213: -6605697490190000694
+    second: runner-asset-sheet-with-transparency_480
+  - first:
+      213: 8702418829607857039
+    second: runner-asset-sheet-with-transparency_481
+  - first:
+      213: 787184568259413238
+    second: runner-asset-sheet-with-transparency_482
+  - first:
+      213: 2807620947885260767
+    second: runner-asset-sheet-with-transparency_483
+  - first:
+      213: -799624012317107741
+    second: runner-asset-sheet-with-transparency_484
+  - first:
+      213: 43710034107327254
+    second: runner-asset-sheet-with-transparency_485
+  - first:
+      213: -7898135909507895345
+    second: runner-asset-sheet-with-transparency_486
+  - first:
+      213: 4547929688325081491
+    second: runner-asset-sheet-with-transparency_487
+  - first:
+      213: -1561300404396320472
+    second: runner-asset-sheet-with-transparency_488
+  - first:
+      213: -4865649988849404258
+    second: runner-asset-sheet-with-transparency_489
+  - first:
+      213: 6861468907562049271
+    second: runner-asset-sheet-with-transparency_490
+  - first:
+      213: 8791564107102923440
+    second: runner-asset-sheet-with-transparency_491
+  - first:
+      213: 7190386808299952057
+    second: runner-asset-sheet-with-transparency_492
+  - first:
+      213: -6910650957843897019
+    second: runner-asset-sheet-with-transparency_493
+  - first:
+      213: 1713118808245888429
+    second: runner-asset-sheet-with-transparency_494
+  - first:
+      213: -7509877162270829426
+    second: runner-asset-sheet-with-transparency_495
+  - first:
+      213: 1693969458944556410
+    second: runner-asset-sheet-with-transparency_496
+  - first:
+      213: 3188499112198155501
+    second: runner-asset-sheet-with-transparency_497
+  - first:
+      213: -8975614788030680245
+    second: runner-asset-sheet-with-transparency_498
+  - first:
+      213: 7277167322281257656
+    second: runner-asset-sheet-with-transparency_499
+  - first:
+      213: -3389994304717161896
+    second: runner-asset-sheet-with-transparency_500
+  - first:
+      213: 5593989940297229763
+    second: runner-asset-sheet-with-transparency_501
+  - first:
+      213: 7956161047321290808
+    second: runner-asset-sheet-with-transparency_502
+  - first:
+      213: -4299680799288553402
+    second: runner-asset-sheet-with-transparency_503
+  - first:
+      213: -87475159542023148
+    second: runner-asset-sheet-with-transparency_504
+  - first:
+      213: 1585327335454940709
+    second: runner-asset-sheet-with-transparency_505
+  - first:
+      213: -1370992033582244134
+    second: runner-asset-sheet-with-transparency_506
+  - first:
+      213: 8043967461203607083
+    second: runner-asset-sheet-with-transparency_507
+  - first:
+      213: 6277619729368221805
+    second: runner-asset-sheet-with-transparency_508
+  - first:
+      213: -6407469952734271335
+    second: runner-asset-sheet-with-transparency_509
+  - first:
+      213: -8840327157152366358
+    second: runner-asset-sheet-with-transparency_510
+  - first:
+      213: -4554602826500804443
+    second: runner-asset-sheet-with-transparency_511
+  - first:
+      213: -979524498137409276
+    second: runner-asset-sheet-with-transparency_512
+  - first:
+      213: -4460368431253857127
+    second: runner-asset-sheet-with-transparency_513
+  - first:
+      213: -7648543484939928226
+    second: runner-asset-sheet-with-transparency_514
+  - first:
+      213: -4471193408457951649
+    second: runner-asset-sheet-with-transparency_515
+  - first:
+      213: 3157272682115505723
+    second: runner-asset-sheet-with-transparency_516
+  - first:
+      213: -528154760864972689
+    second: runner-asset-sheet-with-transparency_517
+  - first:
+      213: -7737662416865143564
+    second: runner-asset-sheet-with-transparency_518
+  - first:
+      213: 466498485425126196
+    second: runner-asset-sheet-with-transparency_519
+  - first:
+      213: 4348457763846558058
+    second: runner-asset-sheet-with-transparency_520
+  - first:
+      213: 7364121598940698467
+    second: runner-asset-sheet-with-transparency_521
+  - first:
+      213: -6155072847953321148
+    second: runner-asset-sheet-with-transparency_522
+  - first:
+      213: 8607059584695974309
+    second: runner-asset-sheet-with-transparency_523
+  - first:
+      213: -6911235893089005294
+    second: runner-asset-sheet-with-transparency_524
+  - first:
+      213: 1371517055172491607
+    second: runner-asset-sheet-with-transparency_525
+  - first:
+      213: 5380067143499141145
+    second: runner-asset-sheet-with-transparency_526
+  - first:
+      213: 4980869033037601492
+    second: runner-asset-sheet-with-transparency_527
+  - first:
+      213: 5926311322986097467
+    second: runner-asset-sheet-with-transparency_528
+  - first:
+      213: 4244340638008309126
+    second: runner-asset-sheet-with-transparency_529
+  - first:
+      213: 1098640011779806690
+    second: runner-asset-sheet-with-transparency_530
+  - first:
+      213: -1015231629151766191
+    second: runner-asset-sheet-with-transparency_531
+  - first:
+      213: -7180026204811632692
+    second: runner-asset-sheet-with-transparency_532
+  - first:
+      213: -3705811672526642868
+    second: runner-asset-sheet-with-transparency_533
+  - first:
+      213: -6694773391056020488
+    second: runner-asset-sheet-with-transparency_534
+  - first:
+      213: 735445411566298881
+    second: runner-asset-sheet-with-transparency_535
+  - first:
+      213: 7905041638879991391
+    second: runner-asset-sheet-with-transparency_536
+  - first:
+      213: -5633482379348376641
+    second: runner-asset-sheet-with-transparency_537
+  - first:
+      213: -3804948688050696247
+    second: runner-asset-sheet-with-transparency_538
+  - first:
+      213: 7830480529915581900
+    second: runner-asset-sheet-with-transparency_539
+  - first:
+      213: -8757902262448617095
+    second: runner-asset-sheet-with-transparency_540
+  - first:
+      213: 3068234211712744274
+    second: runner-asset-sheet-with-transparency_541
+  - first:
+      213: -3015332997821304275
+    second: runner-asset-sheet-with-transparency_542
+  - first:
+      213: -4667381843673392603
+    second: runner-asset-sheet-with-transparency_543
+  - first:
+      213: 7232351847096088424
+    second: runner-asset-sheet-with-transparency_544
+  - first:
+      213: 68505501684300436
+    second: runner-asset-sheet-with-transparency_545
+  - first:
+      213: 5030820771877480992
+    second: runner-asset-sheet-with-transparency_546
+  - first:
+      213: 7602887075008707874
+    second: runner-asset-sheet-with-transparency_547
+  - first:
+      213: -2732701673590428398
+    second: runner-asset-sheet-with-transparency_548
+  - first:
+      213: 1578283567267374956
+    second: runner-asset-sheet-with-transparency_549
+  - first:
+      213: 4345705820458941230
+    second: runner-asset-sheet-with-transparency_550
+  - first:
+      213: 998155780720831484
+    second: runner-asset-sheet-with-transparency_551
+  - first:
+      213: -6938467459220181341
+    second: runner-asset-sheet-with-transparency_552
+  - first:
+      213: 6107526580668464545
+    second: runner-asset-sheet-with-transparency_553
+  - first:
+      213: -2238044747585584765
+    second: runner-asset-sheet-with-transparency_554
+  - first:
+      213: 8983626608792969122
+    second: runner-asset-sheet-with-transparency_555
+  - first:
+      213: 1344612349032043823
+    second: runner-asset-sheet-with-transparency_556
+  - first:
+      213: 7653094874790279447
+    second: runner-asset-sheet-with-transparency_557
+  - first:
+      213: 5239986132931289283
+    second: runner-asset-sheet-with-transparency_558
+  - first:
+      213: 4901898187483977981
+    second: runner-asset-sheet-with-transparency_559
+  - first:
+      213: 6239723497020914387
+    second: runner-asset-sheet-with-transparency_560
+  - first:
+      213: 9074789952155839707
+    second: runner-asset-sheet-with-transparency_561
+  - first:
+      213: -3735359633217724345
+    second: runner-asset-sheet-with-transparency_562
+  - first:
+      213: -5194301224434643058
+    second: runner-asset-sheet-with-transparency_563
+  - first:
+      213: 6059665690560790054
+    second: runner-asset-sheet-with-transparency_564
+  - first:
+      213: 8679150448972453390
+    second: runner-asset-sheet-with-transparency_565
+  - first:
+      213: -3769499646315085355
+    second: runner-asset-sheet-with-transparency_566
+  - first:
+      213: 5845424473395113474
+    second: runner-asset-sheet-with-transparency_567
+  - first:
+      213: 7625437010359992103
+    second: runner-asset-sheet-with-transparency_568
+  - first:
+      213: 3453714527238140253
+    second: runner-asset-sheet-with-transparency_569
+  - first:
+      213: 4475004303813326228
+    second: runner-asset-sheet-with-transparency_570
+  - first:
+      213: 7889882096217249885
+    second: runner-asset-sheet-with-transparency_571
+  - first:
+      213: -6919684280400374143
+    second: runner-asset-sheet-with-transparency_572
+  - first:
+      213: 814019618322042673
+    second: runner-asset-sheet-with-transparency_573
+  - first:
+      213: 8134802959721403842
+    second: runner-asset-sheet-with-transparency_574
+  - first:
+      213: -1813541787899878097
+    second: runner-asset-sheet-with-transparency_575
+  - first:
+      213: -1154205216454817945
+    second: runner-asset-sheet-with-transparency_576
+  - first:
+      213: 7986939198914150203
+    second: runner-asset-sheet-with-transparency_577
+  - first:
+      213: -5369325812119894911
+    second: runner-asset-sheet-with-transparency_578
+  - first:
+      213: 5253142244301141815
+    second: runner-asset-sheet-with-transparency_579
+  - first:
+      213: -1868295971813686351
+    second: runner-asset-sheet-with-transparency_580
+  - first:
+      213: -4729045864214464954
+    second: runner-asset-sheet-with-transparency_581
+  - first:
+      213: 2272526324205263587
+    second: runner-asset-sheet-with-transparency_582
+  - first:
+      213: -7135026716759064095
+    second: runner-asset-sheet-with-transparency_583
+  - first:
+      213: 3286229095020806246
+    second: runner-asset-sheet-with-transparency_584
+  - first:
+      213: -2455771931057503997
+    second: runner-asset-sheet-with-transparency_585
+  - first:
+      213: -5466968410237878478
+    second: runner-asset-sheet-with-transparency_586
+  - first:
+      213: 617186168394472851
+    second: runner-asset-sheet-with-transparency_587
+  - first:
+      213: -6529221158616071044
+    second: runner-asset-sheet-with-transparency_588
+  - first:
+      213: 8966708779032526443
+    second: runner-asset-sheet-with-transparency_589
+  - first:
+      213: 1804778398453672996
+    second: runner-asset-sheet-with-transparency_590
+  - first:
+      213: -8451488780771137252
+    second: runner-asset-sheet-with-transparency_591
+  - first:
+      213: 7405041302586142844
+    second: runner-asset-sheet-with-transparency_592
+  - first:
+      213: 8804271293765611724
+    second: runner-asset-sheet-with-transparency_593
+  - first:
+      213: -5326914319218915199
+    second: runner-asset-sheet-with-transparency_594
+  - first:
+      213: -8603544714423798731
+    second: runner-asset-sheet-with-transparency_595
+  - first:
+      213: -2190075533524833379
+    second: runner-asset-sheet-with-transparency_596
+  - first:
+      213: -787115713251100122
+    second: runner-asset-sheet-with-transparency_597
+  - first:
+      213: 1053309711014823691
+    second: runner-asset-sheet-with-transparency_598
+  - first:
+      213: 7705936512189251645
+    second: runner-asset-sheet-with-transparency_599
+  - first:
+      213: 4388745981614809534
+    second: runner-asset-sheet-with-transparency_600
+  - first:
+      213: 2233765545373701750
+    second: runner-asset-sheet-with-transparency_601
+  - first:
+      213: -8081627766701836452
+    second: runner-asset-sheet-with-transparency_602
+  - first:
+      213: -8359013518435769331
+    second: runner-asset-sheet-with-transparency_603
+  - first:
+      213: -1683813617421861827
+    second: runner-asset-sheet-with-transparency_604
+  - first:
+      213: -913995533767111685
+    second: runner-asset-sheet-with-transparency_605
+  - first:
+      213: -476502921281507925
+    second: runner-asset-sheet-with-transparency_606
+  - first:
+      213: -7501084831366709598
+    second: runner-asset-sheet-with-transparency_607
+  - first:
+      213: 4059461728983024096
+    second: runner-asset-sheet-with-transparency_608
+  - first:
+      213: -9209952266939045846
+    second: runner-asset-sheet-with-transparency_609
+  - first:
+      213: 8844250851219309172
+    second: runner-asset-sheet-with-transparency_610
+  - first:
+      213: -1660714346455900139
+    second: runner-asset-sheet-with-transparency_611
+  - first:
+      213: -269945561262613223
+    second: runner-asset-sheet-with-transparency_612
+  - first:
+      213: -7487406553042767588
+    second: runner-asset-sheet-with-transparency_613
+  - first:
+      213: -8466058703958868650
+    second: runner-asset-sheet-with-transparency_614
+  - first:
+      213: 307341440739531372
+    second: runner-asset-sheet-with-transparency_615
+  - first:
+      213: -7053405952417193508
+    second: runner-asset-sheet-with-transparency_616
+  - first:
+      213: 1527523229286982165
+    second: runner-asset-sheet-with-transparency_617
+  - first:
+      213: -6712552147465830434
+    second: runner-asset-sheet-with-transparency_618
+  - first:
+      213: 4987791249922936929
+    second: runner-asset-sheet-with-transparency_619
+  - first:
+      213: -3265111679089182405
+    second: runner-asset-sheet-with-transparency_620
+  - first:
+      213: -1026548922044910798
+    second: runner-asset-sheet-with-transparency_621
+  - first:
+      213: -7874002857159975156
+    second: runner-asset-sheet-with-transparency_622
+  - first:
+      213: 929318823897777034
+    second: runner-asset-sheet-with-transparency_623
+  - first:
+      213: 8266789362507536246
+    second: runner-asset-sheet-with-transparency_624
+  - first:
+      213: -5140605883037095703
+    second: runner-asset-sheet-with-transparency_625
+  - first:
+      213: 1315111244593012222
+    second: runner-asset-sheet-with-transparency_626
+  - first:
+      213: -414836559942367596
+    second: runner-asset-sheet-with-transparency_627
+  - first:
+      213: 4110031058802989661
+    second: runner-asset-sheet-with-transparency_628
+  - first:
+      213: 7984750542890202831
+    second: runner-asset-sheet-with-transparency_629
+  - first:
+      213: -2436552596676712305
+    second: runner-asset-sheet-with-transparency_630
+  - first:
+      213: 1761217272529053004
+    second: runner-asset-sheet-with-transparency_631
+  - first:
+      213: -7048056907827696056
+    second: runner-asset-sheet-with-transparency_632
+  - first:
+      213: 1335942455581177890
+    second: runner-asset-sheet-with-transparency_633
+  - first:
+      213: 3730431643100035751
+    second: runner-asset-sheet-with-transparency_634
+  - first:
+      213: 7582231560614613048
+    second: runner-asset-sheet-with-transparency_635
+  - first:
+      213: -2481846447535470034
+    second: runner-asset-sheet-with-transparency_636
+  - first:
+      213: 7083677432686743786
+    second: runner-asset-sheet-with-transparency_637
+  - first:
+      213: 8354811519844473340
+    second: runner-asset-sheet-with-transparency_638
+  - first:
+      213: 8006577463847272438
+    second: runner-asset-sheet-with-transparency_639
+  - first:
+      213: -2171561141798573123
+    second: runner-asset-sheet-with-transparency_640
+  - first:
+      213: 3281066386985827979
+    second: runner-asset-sheet-with-transparency_641
+  - first:
+      213: 4351132854847100
+    second: runner-asset-sheet-with-transparency_642
+  - first:
+      213: 2393047306734457383
+    second: runner-asset-sheet-with-transparency_643
+  - first:
+      213: -3604232497159983469
+    second: runner-asset-sheet-with-transparency_644
+  - first:
+      213: -1598006409652883031
+    second: runner-asset-sheet-with-transparency_645
+  - first:
+      213: -4267645641183685611
+    second: runner-asset-sheet-with-transparency_646
+  - first:
+      213: -4832891918298140256
+    second: runner-asset-sheet-with-transparency_647
+  - first:
+      213: -2519183539300821324
+    second: runner-asset-sheet-with-transparency_648
+  - first:
+      213: -127595156486105925
+    second: runner-asset-sheet-with-transparency_649
+  - first:
+      213: 5724553720018073307
+    second: runner-asset-sheet-with-transparency_650
+  - first:
+      213: 7627270002551467007
+    second: runner-asset-sheet-with-transparency_651
+  - first:
+      213: -7842274971193527575
+    second: runner-asset-sheet-with-transparency_652
+  - first:
+      213: -4838941053789833441
+    second: runner-asset-sheet-with-transparency_653
+  - first:
+      213: -7741086065033488614
+    second: runner-asset-sheet-with-transparency_654
+  - first:
+      213: 6996770974203655236
+    second: runner-asset-sheet-with-transparency_655
+  - first:
+      213: 2066504796951489720
+    second: runner-asset-sheet-with-transparency_656
+  - first:
+      213: 5046458213620474737
+    second: runner-asset-sheet-with-transparency_657
+  - first:
+      213: 2689401995297306204
+    second: runner-asset-sheet-with-transparency_658
+  - first:
+      213: -6759625576577906849
+    second: runner-asset-sheet-with-transparency_659
+  - first:
+      213: -3244304965280955217
+    second: runner-asset-sheet-with-transparency_660
+  - first:
+      213: -70146427770538961
+    second: runner-asset-sheet-with-transparency_661
+  - first:
+      213: 8858027173111398016
+    second: runner-asset-sheet-with-transparency_662
+  - first:
+      213: 4700834625055509993
+    second: runner-asset-sheet-with-transparency_663
+  - first:
+      213: -2841732639338993492
+    second: runner-asset-sheet-with-transparency_664
+  - first:
+      213: -2901815423995914706
+    second: runner-asset-sheet-with-transparency_665
+  - first:
+      213: -1310707389810142972
+    second: runner-asset-sheet-with-transparency_666
+  - first:
+      213: 6439816207541598504
+    second: runner-asset-sheet-with-transparency_667
+  - first:
+      213: 3574504071357013292
+    second: runner-asset-sheet-with-transparency_668
+  - first:
+      213: 8380478758701644304
+    second: runner-asset-sheet-with-transparency_669
+  - first:
+      213: 3264166064723820964
+    second: runner-asset-sheet-with-transparency_670
+  - first:
+      213: -8905525746007319020
+    second: runner-asset-sheet-with-transparency_671
+  - first:
+      213: -7098414610917125582
+    second: runner-asset-sheet-with-transparency_672
+  - first:
+      213: 6465636668742243218
+    second: runner-asset-sheet-with-transparency_673
+  - first:
+      213: -7228369176526837925
+    second: runner-asset-sheet-with-transparency_674
+  - first:
+      213: -1525263483206852056
+    second: runner-asset-sheet-with-transparency_675
+  - first:
+      213: 521994362447482138
+    second: runner-asset-sheet-with-transparency_676
+  - first:
+      213: 5006919371269522488
+    second: runner-asset-sheet-with-transparency_677
+  - first:
+      213: -4879096046718937131
+    second: runner-asset-sheet-with-transparency_678
+  - first:
+      213: -3684500847694649617
+    second: runner-asset-sheet-with-transparency_679
+  - first:
+      213: -1426060875265046045
+    second: runner-asset-sheet-with-transparency_680
+  - first:
+      213: 1142720205897710011
+    second: runner-asset-sheet-with-transparency_681
+  - first:
+      213: 659079029561618141
+    second: runner-asset-sheet-with-transparency_682
+  - first:
+      213: -6802065970908847864
+    second: runner-asset-sheet-with-transparency_683
+  - first:
+      213: 7370360523866578289
+    second: runner-asset-sheet-with-transparency_684
+  - first:
+      213: -5113331295285880567
+    second: runner-asset-sheet-with-transparency_685
+  - first:
+      213: 7074241796446357247
+    second: runner-asset-sheet-with-transparency_686
+  - first:
+      213: 6363119314344402477
+    second: runner-asset-sheet-with-transparency_687
+  - first:
+      213: 8926122090687492783
+    second: runner-asset-sheet-with-transparency_688
+  - first:
+      213: -363073727057825378
+    second: runner-asset-sheet-with-transparency_689
+  - first:
+      213: -7752210015440476362
+    second: runner-asset-sheet-with-transparency_690
+  - first:
+      213: -7643565763437964432
+    second: runner-asset-sheet-with-transparency_691
+  - first:
+      213: 999513860831635064
+    second: runner-asset-sheet-with-transparency_692
+  - first:
+      213: 60819693277076161
+    second: runner-asset-sheet-with-transparency_693
+  - first:
+      213: 2831205040171787758
+    second: runner-asset-sheet-with-transparency_694
+  - first:
+      213: 2369206536793032456
+    second: runner-asset-sheet-with-transparency_695
+  - first:
+      213: -4535741098896149975
+    second: runner-asset-sheet-with-transparency_696
+  - first:
+      213: -379975459306350520
+    second: runner-asset-sheet-with-transparency_697
+  - first:
+      213: 5437200384907746721
+    second: runner-asset-sheet-with-transparency_698
+  - first:
+      213: -852762431497720803
+    second: runner-asset-sheet-with-transparency_699
+  - first:
+      213: 2910595038480093138
+    second: runner-asset-sheet-with-transparency_700
+  - first:
+      213: 6471709064819622562
+    second: runner-asset-sheet-with-transparency_701
+  - first:
+      213: -4432411672708781425
+    second: runner-asset-sheet-with-transparency_702
+  - first:
+      213: -541370022480753249
+    second: runner-asset-sheet-with-transparency_703
+  - first:
+      213: -4718653997112428061
+    second: runner-asset-sheet-with-transparency_704
+  - first:
+      213: -853062904273229842
+    second: runner-asset-sheet-with-transparency_705
+  - first:
+      213: 7692106534955980012
+    second: runner-asset-sheet-with-transparency_706
+  - first:
+      213: -6061467673162041358
+    second: runner-asset-sheet-with-transparency_707
+  - first:
+      213: -6010141707339724538
+    second: runner-asset-sheet-with-transparency_708
+  - first:
+      213: 600815270705363781
+    second: runner-asset-sheet-with-transparency_709
+  - first:
+      213: 4265257358474374950
+    second: runner-asset-sheet-with-transparency_710
+  - first:
+      213: -4021219283200668754
+    second: runner-asset-sheet-with-transparency_711
+  - first:
+      213: 3669813509667478170
+    second: runner-asset-sheet-with-transparency_712
+  - first:
+      213: 6309410250891068053
+    second: runner-asset-sheet-with-transparency_713
+  - first:
+      213: -3467255016436131267
+    second: runner-asset-sheet-with-transparency_714
+  - first:
+      213: -1805938325694243506
+    second: runner-asset-sheet-with-transparency_715
+  - first:
+      213: -6483880644150500656
+    second: runner-asset-sheet-with-transparency_716
+  - first:
+      213: -5064181628568573629
+    second: runner-asset-sheet-with-transparency_717
+  - first:
+      213: -2737378317784957035
+    second: runner-asset-sheet-with-transparency_718
+  - first:
+      213: 5988859887797749153
+    second: runner-asset-sheet-with-transparency_719
+  - first:
+      213: -4058146230986788972
+    second: runner-asset-sheet-with-transparency_720
+  - first:
+      213: -9127305512279892477
+    second: runner-asset-sheet-with-transparency_721
+  - first:
+      213: 658372361186064881
+    second: runner-asset-sheet-with-transparency_722
+  - first:
+      213: 2937390716567537836
+    second: runner-asset-sheet-with-transparency_723
+  - first:
+      213: 7140350325373733830
+    second: runner-asset-sheet-with-transparency_724
+  - first:
+      213: 635945572960395701
+    second: runner-asset-sheet-with-transparency_725
+  - first:
+      213: -8872324031022884726
+    second: runner-asset-sheet-with-transparency_726
+  - first:
+      213: -1717157880517072324
+    second: runner-asset-sheet-with-transparency_727
+  - first:
+      213: -3431402197668966192
+    second: runner-asset-sheet-with-transparency_728
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f03f61cd4f02410800000000000000
+      internalID: 1450428306128310148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4dda59d3c409f50800000000000000
+      internalID: 6886087657637401779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef324e1727f22c4c0800000000000000
+      internalID: -4268797328210254850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53fd083a73125ad0800000000000000
+      internalID: -2715086209703611556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9fe84ea80ee9760800000000000000
+      internalID: 7466652119371545041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fdcc37923c8ada0800000000000000
+      internalID: -5933277926256746691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27a5fc1e9581b800800000000000000
+      internalID: 626428737318397740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa19178940760be80800000000000000
+      internalID: -8164912854987599446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954a19ef8063cb7a0800000000000000
+      internalID: -6360149161495387047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c2b2ff301ca0640800000000000000
+      internalID: 5047058555332144285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff54bbbdc3c87ea0800000000000000
+      internalID: -5874730425519939595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6983990ff474110800000000000000
+      internalID: 1245051716772599504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44453d302ee74b10800000000000000
+      internalID: 1965801584603776079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991ebb914d9a9a7c0800000000000000
+      internalID: -4059526860667887207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ac5e290d6132380800000000000000
+      internalID: -8997322545482577298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e21188b38dadfa90800000000000000
+      internalID: -7278470641513065756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff8e7e01fb8e7bf0800000000000000
+      internalID: -324668255677542411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba59c0374b7dc610800000000000000
+      internalID: 1643104984751495862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881fc9652d1b8a090800000000000000
+      internalID: -8022967219206164088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93e34328c5fe6010800000000000000
+      internalID: 1184153991978935195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957c4381552922160800000000000000
+      internalID: 6999317665063159641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5263520b9bc775500800000000000000
+      internalID: 384913430129489445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca0fc98a46390960800000000000000
+      internalID: 7568640342540356298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af35bbfd7c0c2750800000000000000
+      internalID: 6281409315508404128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c64f94370a6b3730800000000000000
+      internalID: 3979891274892134089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_25
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8713ce4e2019ab0800000000000000
+      internalID: -5003214528793446187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8143c3ac6adcc4e50800000000000000
+      internalID: 6795032054036444184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_27
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5a2dda972c24400800000000000000
+      internalID: 307021552477709759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85be5167a4223b8c0800000000000000
+      internalID: -3984803542088684712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_29
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5535d4cd8b707b610800000000000000
+      internalID: 1636785480123896661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_30
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8c54c754cf08480800000000000000
+      internalID: -8898835488316208950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_31
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4577a61348724be0800000000000000
+      internalID: -1494499896795368118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8143bb7157f388180800000000000000
+      internalID: -9112964073842330600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e090dd9b2eea12120800000000000000
+      internalID: 2387381566287186190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3aa4b57e42b30c90800000000000000
+      internalID: -7204718928810694081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa8264deba0734a0800000000000000
+      internalID: -6613805713046992129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95a7a448b55c1a80800000000000000
+      internalID: -8494820547213417057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f84998817004f140800000000000000
+      internalID: 4752423994405767412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37ee8ec3fef8ea40800000000000000
+      internalID: 5397844476499519295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_39
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbff0fd665d30980800000000000000
+      internalID: -8573774627777545275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e769ee26cee68740800000000000000
+      internalID: 5154069358530095081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_41
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128d06e0de8b6efa0800000000000000
+      internalID: -5771722544140724191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_42
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c49b312bdd96a710800000000000000
+      internalID: 1704223073487262916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_43
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47555e75f98d3a440800000000000000
+      internalID: 4946034994668983668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_44
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4baa92e0f60a7a0800000000000000
+      internalID: -6367967766482602808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_45
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a167c3dc7539d60800000000000000
+      internalID: 7895751110704896539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_46
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be3c2bfd95a387e0800000000000000
+      internalID: -1764384531056673102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_47
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73857e2dc487cf4c0800000000000000
+      internalID: -4252391676793366473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32589b214b3489020800000000000000
+      internalID: 2348701646361036067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb23971b5c5f7f70800000000000000
+      internalID: 9187163311166401480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92efe1121c292e0d0800000000000000
+      internalID: -3394989810901909975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24e53bd684be8c30800000000000000
+      internalID: 4363623580264948782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40dacbebdf365f00800000000000000
+      internalID: 1105140972352360523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19d206eb8d984fe0800000000000000
+      internalID: -1204539676136646369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e670f8be1c692ed00800000000000000
+      internalID: 1000527826854545262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_55
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f01281623f7d0d0800000000000000
+      internalID: -3397980048888623244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a50188d70946b1b0800000000000000
+      internalID: -5641241185189034587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_57
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2265caba01afc1fb0800000000000000
+      internalID: -4675587363610798558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_58
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb817c17d71b62510800000000000000
+      internalID: 1524100676249393339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_59
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b9c0f9105ff1510800000000000000
+      internalID: 1522204586386693002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_60
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fc20759b6ef26b0800000000000000
+      internalID: -5318778951198126218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_61
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d898aee04dad820800000000000000
+      internalID: 2943898466969554322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_62
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d660e1f559757c40800000000000000
+      internalID: 5509443129194866389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_63
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d7fba8ac035c840800000000000000
+      internalID: 5243650987612142997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9432fe07389bd7640800000000000000
+      internalID: 5079419928930362185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_65
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68e8f829952dfde0800000000000000
+      internalID: -1297839777865209749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_66
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff85b37a722c16b00800000000000000
+      internalID: 820150082723338495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_67
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0518ce20f3d554b70800000000000000
+      internalID: 8882608365271548240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb6f1ad511544fe40800000000000000
+      internalID: 5689248170163435195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_69
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d1be26fa27bf9a0800000000000000
+      internalID: -6198234364540936952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_70
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929aefe68df3a9cb0800000000000000
+      internalID: -4856499049357989591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_71
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88e89c51929d9990800000000000000
+      internalID: -7377579461541566325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_72
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e070433e973c0d0800000000000000
+      internalID: -3403742876624548300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_73
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d665d10e1bad2b70800000000000000
+      internalID: 8875938585985246935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_74
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69b8159c9ffba590800000000000000
+      internalID: -7661749293059360401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_75
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89125c4adb9e06bd0800000000000000
+      internalID: -2638852380916637288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_76
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f5aaf75b1eaaea0800000000000000
+      internalID: -5860623795422077170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_77
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ca5ceba9dcaa5a0800000000000000
+      internalID: -6509164246901347230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_78
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffed19e21256c470800000000000000
+      internalID: 8414503194962292723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfd1ad0815b9d870800000000000000
+      internalID: 8708190469410119620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_80
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13a44978f280df20800000000000000
+      internalID: 3445397718636471068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_81
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0ab499bd6e25ac0800000000000000
+      internalID: -3867775299113738002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_82
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24999f101bfc7760800000000000000
+      internalID: 7457111129686905900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_83
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29212fa45d2802bc0800000000000000
+      internalID: -3809901432158416238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_84
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230956a91bdec9950800000000000000
+      internalID: 6457297312797790258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_85
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43dcbf4b428aebf40800000000000000
+      internalID: 5746215050180021556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_86
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efdcb95646f473440800000000000000
+      internalID: 4915484810918219262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_87
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4183c502c38ad10800000000000000
+      internalID: 2137024132871099621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_88
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7a541a8d7ac43b0800000000000000
+      internalID: -5526858093829969943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_89
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1ba4cb734e638b0800000000000000
+      internalID: -5172696193955089949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_90
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a848063c74e782f0800000000000000
+      internalID: -970555972541462361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_91
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f89d7da0b6786560800000000000000
+      internalID: 7307220896605640944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_92
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4290175b030a8d930800000000000000
+      internalID: 4168257586194352420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_93
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641bac315e086d1b0800000000000000
+      internalID: -5632172562612309690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_94
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a72eb71119febc0800000000000000
+      internalID: -3751620460297422296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_95
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4405e9185408ebd90800000000000000
+      internalID: -7080080528164106172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_96
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a920c700b36b9ac70800000000000000
+      internalID: 8982911296294617754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_97
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85bb71eda695ce870800000000000000
+      internalID: 8713437694582569816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_98
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c71e195744c30b10800000000000000
+      internalID: 1946615274671052736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_99
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea29fe95a2addb450800000000000000
+      internalID: 6106276545216615086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_100
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e26e69bf77cd8e40800000000000000
+      internalID: 5660399658060374757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_101
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7e238c5e04d32c0800000000000000
+      internalID: -4450329501121714268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_102
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f554774e32dc37b0800000000000000
+      internalID: -5243084701237488139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_103
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad72c01b463771d90800000000000000
+      internalID: -7127101008986232870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_104
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa6683024a3cdee0800000000000000
+      internalID: -1235048142604965129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_105
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b7c9ab849b0e180800000000000000
+      internalID: -9088060326014059725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_106
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be79d01bf9eec6e40800000000000000
+      internalID: 5651154002080798699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_107
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccaaf1e6bc15579f0800000000000000
+      internalID: -471380651822568756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_108
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a3886f1e967cd20800000000000000
+      internalID: 3298721671296858781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_109
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08886374cd9cf69c0800000000000000
+      internalID: -3931702001746409344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_110
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537463f07bfb892d0800000000000000
+      internalID: -3271654336329529547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_111
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f456ecb731a710f0800000000000000
+      internalID: -1146270319378017039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_112
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad520df458ebf4a00800000000000000
+      internalID: 743021943318390234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_113
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb6e0ac2a4fc7ab0800000000000000
+      internalID: -5008859705531012153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_114
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b78a89bff2fe1000800000000000000
+      internalID: 8711429444765624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_115
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e973cace2494a4dd0800000000000000
+      internalID: -2501106091263510626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_116
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312bbb88032cb5970800000000000000
+      internalID: 8744796615178170899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_117
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d0699cdbef0a6d0800000000000000
+      internalID: -2981102862234940144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_118
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d558596431778e9a0800000000000000
+      internalID: -6203577562030570147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_119
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871f9fae859762e10800000000000000
+      internalID: 2172557293059174776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_120
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a810189476fc12d70800000000000000
+      internalID: 9016715971494216074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_121
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90602742137dff3d0800000000000000
+      internalID: -3170579006580718071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_122
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911ebd62a19df6310800000000000000
+      internalID: 1400576715479834905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_123
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f3531464265f070800000000000000
+      internalID: 8139519955423280946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_124
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba26dd8acd9883f0800000000000000
+      internalID: -898294632371836231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_125
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948fea1169f190b00800000000000000
+      internalID: 795201538609838153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_126
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add4d39224154d530800000000000000
+      internalID: 3878814523674414554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_127
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87259df6ae64e6d30800000000000000
+      internalID: 4426553456464581240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_128
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fa4c886575913d0800000000000000
+      internalID: -3235458828115595394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_129
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240a75f7539a7b600800000000000000
+      internalID: 484041532200427586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_130
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd52a96ea12421260800000000000000
+      internalID: 7066783448603174365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_131
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1cf24d01dcfd3e80800000000000000
+      internalID: -8197117771943576548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_132
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbea5aa7fc2bdd90800000000000000
+      internalID: -7072009347628602423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_133
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f735e7aee7e72140800000000000000
+      internalID: 4694976148762081264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_134
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72add770f0dbf22c0800000000000000
+      internalID: -4454133634198283737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_135
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec49ef0f2f3dd3d0800000000000000
+      internalID: -3180316290490741529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_136
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989f5d27cd2f309a0800000000000000
+      internalID: -6267899227736245879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_137
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf083eb6c8d4d09d0800000000000000
+      internalID: -2806501727281118980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_138
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb837ed4345a0aed0800000000000000
+      internalID: -2404740492527454021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_139
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61dc8a0f9e56a0130800000000000000
+      internalID: 3533748913064955158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_140
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb25cc13a59061e30800000000000000
+      internalID: 4473773562826347196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_141
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77c38b4576de87b0800000000000000
+      internalID: -5219999118809380998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_142
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b44d95dbc6d5dc80800000000000000
+      internalID: -8298490567409711949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_143
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36dc3770c0fafc620800000000000000
+      internalID: 2796646359819865443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_144
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602ab4e7112a5b5f0800000000000000
+      internalID: -741508367615548922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_145
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa8fc61ac6a2adc0800000000000000
+      internalID: -3629154962810893653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_146
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30dbc240faa0b970800000000000000
+      internalID: 8768696423379882044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_147
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d8c6cfc513917c0800000000000000
+      internalID: -4100191710302401127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_148
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed3858f62b3d3a30800000000000000
+      internalID: 4196575466340498919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_149
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42328cab0ca937640800000000000000
+      internalID: 5076571357534757668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_150
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa802fb14c4b81550800000000000000
+      internalID: 6131849647040366767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_151
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f2df3633eafe790800000000000000
+      internalID: -7498583318804484340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_152
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880124936e9406760800000000000000
+      internalID: 7449035036822737032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_153
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792ceb3778ddd5cb0800000000000000
+      internalID: -4873495647912803689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_154
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4186ff68a9425e2f0800000000000000
+      internalID: -944308300755802092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_155
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d602a153c057ea0800000000000000
+      internalID: -5875776716623811190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_156
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d32a1f22ab9a3e0800000000000000
+      internalID: -2041896296790213321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_157
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901962cb52fa44950800000000000000
+      internalID: 6432458744397205769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_158
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282684a9adbfbd890800000000000000
+      internalID: -7432069843734994302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_159
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a5e0e884c65b360800000000000000
+      internalID: 7184767839416244815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_160
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea780db3058d5e00800000000000000
+      internalID: 1035129740467927779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_161
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ee73fa3d4f9aa40800000000000000
+      internalID: 5380100419885723150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_162
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c00a2b751ef89a0800000000000000
+      internalID: -6228511992854868958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_163
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7e50a04b72943c0800000000000000
+      internalID: -4374921908797970449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_164
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7eabb989edbfdf70800000000000000
+      internalID: 9214292173359132286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_165
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886b781d99161a450800000000000000
+      internalID: 6098262683709585032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_166
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632f238c7b2affa90800000000000000
+      internalID: -7277919562585935306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_167
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245e77740a982b4c0800000000000000
+      internalID: -4273201774934366910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_168
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52835800e321bd780800000000000000
+      internalID: -8657305801183643611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_169
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6715e6a1a79a8790800000000000000
+      internalID: -7527037106650802323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_170
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1ac5b094d862890800000000000000
+      internalID: -7483138385966751303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_171
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20055fbc7283b1cd0800000000000000
+      internalID: -2586411817417486334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_172
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e751072ea9e5340800000000000000
+      internalID: 4854487745685716546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_173
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173bc5d972d2e75b0800000000000000
+      internalID: -5368804057611979919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_174
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a67730c36a1c0c0800000000000000
+      internalID: -4557178571235825147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_175
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c0065e8dfb959c0800000000000000
+      internalID: -3937905460876669885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_176
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f81c837231e3e40800000000000000
+      internalID: 5637964842691301175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_177
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4259cc6df76cea750800000000000000
+      internalID: 6318205579614262564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_178
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f985ef50e9b79e0800000000000000
+      internalID: -1622529492157685878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_179
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba739d518c2ea04e0800000000000000
+      internalID: -2014548534306981973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_180
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61419884c8ec1e4b0800000000000000
+      internalID: -5412818175214939114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_181
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57cad728333ad2750800000000000000
+      internalID: 6281856496879643765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_182
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca82e231c13745b40800000000000000
+      internalID: 5428090015306361004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_183
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0526392c7f7e4c340800000000000000
+      internalID: 4883282947283837520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_184
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68494f7aedcad76c0800000000000000
+      internalID: -4143966009810447226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_185
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94044c9e6f8ca5760800000000000000
+      internalID: 7447485896619999305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_186
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95adf472cf3a5f0f0800000000000000
+      internalID: -1083779831926105511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_187
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d86e65345313560800000000000000
+      internalID: 7291667835026574658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_188
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e2d89d228a10160800000000000000
+      internalID: 6990052964287983248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_189
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918aa4327a64362d0800000000000000
+      internalID: -3286705619384752103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_190
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199ad84b6a1c41a10800000000000000
+      internalID: 1879339866258254225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_191
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa0adc752564cb00800000000000000
+      internalID: 847913841535355566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_192
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0e0500eb82a3ee0800000000000000
+      internalID: -1280666347519287105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_193
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea08aae456b054960800000000000000
+      internalID: 7585481677114867886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_194
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b97edd0cc3922890800000000000000
+      internalID: -7484257126121047631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_195
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6345b43773594a7b0800000000000000
+      internalID: -5213878403198135242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_196
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555affaf7c5ce7d60800000000000000
+      internalID: 7889961059899909461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_197
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95bb1d37e45c3930800000000000000
+      internalID: 4124264710903936414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_198
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd915a45ef030e70800000000000000
+      internalID: 9080118751177842175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_199
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a800a8338ccb99e0800000000000000
+      internalID: -1613471177519396697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_200
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd1dad0ab5a1c3f0800000000000000
+      internalID: -882241833475957295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-asset-sheet-with-transparency_201
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7057c0a6e1eae0a90800000000000000
+      internalID: -7345742496543247097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
