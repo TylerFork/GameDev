@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,41 +8,81 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] WeightCollection currentLevelWeights;
     [SerializeField] Text scoreText;
+    [SerializeField] Text remainingTime;
+
+    float runningScore = 0f;
+    float weightLiftingTime = 0f;
+    bool isLevelTimerFinished = false;
 
     Player player;
+    LevelLoader levelLoader;
+
+    /// setup singleton pattern for this object
+    private void Awake()
+    {
+        SetupSingleton();
+    }
+
+    private void SetupSingleton()
+    {
+        if (FindObjectsOfType<GameManager>().Length > 1)
+        {
+            Destroy(gameObject);
+        } else
+        {
+            DontDestroyOnLoad(gameObject);
+        }
+    }
 
     void Start()
     {
+        scoreText.text = 0.ToString();
+        weightLiftingTime = currentLevelWeights.GetSuccessLiftingTime();
         player = FindObjectOfType<Player>();
+        levelLoader = FindObjectOfType<LevelLoader>();
     }
 
     private void Update()
     {
-        if (player.GetPlayerPressedConfirmButton())
+        weightLiftingTime = Mathf.Max(weightLiftingTime - Time.deltaTime);
+        remainingTime.text = weightLiftingTime.ToString("0.0");
+
+        if (weightLiftingTime <= Mathf.Epsilon)
         {
-            scoreText.text = CalculateScore(player, currentLevelWeights).ToString();
+            isLevelTimerFinished = true;
+            player.SetIsLevelTimerOverFlag();
+            StopTimer();
+        }
+
+        if (player.GetPlayerPressedConfirmButton() | isLevelTimerFinished)
+        {
+            scoreText.text = runningScore.ToString("0");
+            StopTimer();
+            StartCoroutine(levelLoader.WaitForTime());
 
         }
 
     }
-
-    public WeightCollection GetLevelWeightCollection()
+ 
+    void StopTimer()
     {
-        return currentLevelWeights;
+        remainingTime.enabled = false;
     }
 
-    private float CalculateScore(Player player, WeightCollection target)
+
+    public void CalculateAndAddToRunningScore()
     {
         float minScoringRange, maxScoringRange, playerEnergy, targetEnergy, playerEnergyRatioAwayFromTarget;
         playerEnergy = player.GetCurrentEnergy();
-        targetEnergy = target.GetTotalWeight();
-        minScoringRange = target.GetScoreRange().Item1;
-        maxScoringRange = target.GetScoreRange().Item2;
+        targetEnergy = currentLevelWeights.GetTotalWeight();
+        minScoringRange = currentLevelWeights.GetScoreRange().Item1;
+        maxScoringRange = currentLevelWeights.GetScoreRange().Item2;
 
 
         if ((playerEnergy < minScoringRange) | (playerEnergy > maxScoringRange))
         {
-            return 0f;
+            runningScore += 0f;
+            return;
         }
 
         if (playerEnergy > targetEnergy)
@@ -56,7 +97,12 @@ public class GameManager : MonoBehaviour
 
         }
 
-        return Mathf.Lerp(100f, 0f, playerEnergyRatioAwayFromTarget);
+        runningScore += Mathf.Lerp(100f, 0f, playerEnergyRatioAwayFromTarget);
+    }
+
+    public WeightCollection GetLevelWeightCollection()
+    {
+        return currentLevelWeights;
     }
 
 }

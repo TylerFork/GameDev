@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
+[ExecuteInEditMode()]
 public class Player : MonoBehaviour
 {
 
@@ -11,18 +12,14 @@ public class Player : MonoBehaviour
     [SerializeField] GameObject deathVFX;
 
     [Header("Lift Parameters")]
-    [SerializeField] float maxCharge = 100f;
-    [SerializeField] float weightClass = 0f;
     [SerializeField] float frequencyStrength = 500f;
-    [SerializeField] Slider chargeLevelDisplay;
+    [SerializeField] ProgressBar progressBar;
     
-    //[Header("Debug Parameters")]
     float energyRawInputThrow;
     float energyCycledThrow;
     bool playerStarted = false;
     bool playerPressedConfirmButton = false;
-    float weightLiftingTime = 0f;
-    float processedFrequency;
+    bool isLevelTimerOver = false;
 
     // cached references
     private GameManager gameManager;
@@ -31,6 +28,7 @@ public class Player : MonoBehaviour
 
     private void Awake()
     {
+        progressBar = FindObjectOfType<ProgressBar>();
         gameManager = FindObjectOfType<GameManager>();
         myAnimator = GetComponent<Animator>();
 
@@ -40,11 +38,7 @@ public class Player : MonoBehaviour
     {
         weightLiftCurve = gameManager.GetLevelWeightCollection().GetLiftCurve();
 
-        chargeLevelDisplay.maxValue = maxCharge;
-        chargeLevelDisplay.value = 0f;
-
-        weightClass = gameManager.GetLevelWeightCollection().GetTotalWeight();
-        weightLiftingTime = gameManager.GetLevelWeightCollection().GetSuccessLiftingTime();
+        progressBar.SetCurrentFillAmount(0f);
 
     }
 
@@ -52,9 +46,10 @@ public class Player : MonoBehaviour
     {
 
         // ProcessPlayerInputThrow();
-        if ((playerStarted && Input.GetButtonDown("Jump")) | (weightLiftingTime <= Mathf.Epsilon))
+        if ((playerStarted && Input.GetButtonDown("Jump")) | isLevelTimerOver)
         {
             playerPressedConfirmButton = true;
+            gameManager.CalculateAndAddToRunningScore();
             myAnimator.SetTrigger("liftTrigger");
         }
 
@@ -67,14 +62,12 @@ public class Player : MonoBehaviour
 
         if (playerStarted && !playerPressedConfirmButton)
         {
-            weightLiftingTime -= Time.deltaTime;
             //processedFrequency = frequencyStrength * weightLiftCurve.Evaluate(energyRawInputThrow);
             //StartCoroutine(CyclicEnergyBar());
-            energyCycledThrow = ProcessRawIntoCycledEnergy(energyRawInputThrow, chargeLevelDisplay.maxValue);
+            energyCycledThrow = ProcessRawIntoCycledEnergy(energyRawInputThrow, 100f);
         }
 
-        chargeLevelDisplay.transform.GetChild(0).GetComponent<Text>().text = weightLiftingTime.ToString("0.000");
-        chargeLevelDisplay.value = energyCycledThrow;
+        progressBar.SetCurrentFillAmount(energyCycledThrow);
 
     }
 
@@ -86,19 +79,18 @@ public class Player : MonoBehaviour
     {
         float processedFrequency = frequencyStrength * weightLiftCurve.Evaluate(rawInput);
         //float processedInput = Mathf.Floor(rawInput*cycleFrequency);
-        return (amplitude / 1.5f) * (Mathf.Cos(processedFrequency*Time.time - Mathf.PI / 2) + 0.5f);
+        return (amplitude) * (Mathf.Cos(processedFrequency*Time.time - Mathf.PI / 2));
     }
 
-    IEnumerator CyclicEnergyBar()
-    {
-        energyCycledThrow = (chargeLevelDisplay.maxValue / 1.5f) * (Mathf.Sin(processedFrequency * Time.time - Mathf.PI / 2) + 0.5f);
-        yield return null;
-    }
-     
     public void DeathVFX()
     {
         GameObject explosion = Instantiate(deathVFX, transform.position, transform.rotation);
         Destroy(explosion, 1f);
+    }
+
+    public void SetIsLevelTimerOverFlag()
+    {
+        isLevelTimerOver = true;
     }
 
     public float GetCurrentEnergy()
@@ -109,6 +101,14 @@ public class Player : MonoBehaviour
     public bool GetPlayerPressedConfirmButton()
     {
         return playerPressedConfirmButton;
+    }
+
+    //unused
+    IEnumerator CyclicEnergyBar()
+    {
+        float processedFrequency = 0;
+        energyCycledThrow = (100f) * (Mathf.Sin(processedFrequency * Time.time - Mathf.PI / 2));
+        yield return null;
     }
 
 
